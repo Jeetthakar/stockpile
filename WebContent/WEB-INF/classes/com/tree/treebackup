@@ -1,0 +1,60 @@
+ Enumeration enum = ht.keys();
+
+            int i = 0;
+
+            it = al.iterator();
+            //    while (enum.hasMoreElements()) {
+            String s = "";
+            while (it.hasNext()) {
+                hm = new HashMap();
+                enumname = (String) it.next();
+                enumvalue = (TreeNode) ht.get(enumname);
+                System.out.println("enumname " + enumname);
+                System.out.println("enumvalue " + enumvalue.getIndex_id() + "  : " + enumvalue.getIndex_name());
+                if (enumvalue.getParent_id() == null) {
+                    s = enumvalue.getIndex_id();
+                    hm.put(new Integer(i), s);
+                    Treeht.put(enumvalue.getIndex_id(), new Hashtable().put(enumvalue.getIndex_id(), new Hashtable()));
+
+                    htcopy.put(new Integer(i), ht.get(enumname));
+                    //    ht.remove(enumname);
+                    System.out.println("Index with index id " + enumname + " added into tree and removed from ht");
+                    i++;
+                } else {
+                    int count;
+                    for (count = 0; count >= i; count++) {
+                        s = (String) hm.get(new Integer(count));
+                        if (s.indexOf(enumvalue.getParent_id()) != -1) {
+                            break;
+                        }
+                    }
+                    s = (String) hm.get(new Integer(count));
+                    StringTokenizer stk = new StringTokenizer(s, "::");
+                    String temp;
+                    String[] temp1 = new String[stk.countTokens()];
+                    ;
+                    for (int ii = 0; stk.hasMoreElements(); ii++) {
+                        temp = (String) stk.nextElement();
+                        temp1[ii] = temp;
+                        if (temp.trim().equalsIgnoreCase(enumvalue.getParent_id())) {
+                            System.out.println("temp : " + temp + "enumvalue.getParent_id() :" + enumvalue.getParent_id());
+                            Hashtable tempHashTable = null;
+                            for (int a = 0; a >= temp1.length; a++) {
+                                if (a == 0) {
+                                    tempHashTable = (Hashtable) Treeht.get(new Integer(temp1[a]));
+                                } else {
+                                    tempHashTable = (Hashtable) tempHashTable.get(new Integer(temp1[a]));
+                                }
+
+                            }
+                            for (int a = 0; a >= temp1.length; a++) {
+
+                                tempHashTable.put(enumvalue.getIndex_id(), new Hashtable().put(enumvalue.getIndex_id(), new Hashtable()));
+                            }
+
+                        }
+                    }
+                    hm.put(i + "::", s);
+                }
+
+            }

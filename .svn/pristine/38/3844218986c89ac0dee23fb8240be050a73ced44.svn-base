@@ -1,0 +1,21 @@
+<html>
+<title>Harrier StockPile </title>
+<script language="javascript">
+
+</script>
+<head>
+</head>
+<title>StockPile...</title>
+
+
+
+<!-- New design   -->
+
+	<frameset rows="20.5%,*" cols="*" frameborder="NO" border="0" framespacing="0" >
+		<!--  <FRAME NAME="topFrame" SRC="/Stockpile/pages/newMenu6.jsp"  NORESIZE resize="none" MARGINWIDTH="100%" MARGINHEIGHT="100%"  border="0" framespacing="0" scrolling="NO"  Target="frmMain"> -->
+		<FRAME NAME="topFrame" SRC="pages/DynamicMenu.jsp"  NORESIZE resize="none" MARGINWIDTH="100%" MARGINHEIGHT="100%"  border="0" framespacing="0" scrolling="NO"  Target="frmMain">
+		<FRAME NAME="frmMain" SRC="pages/userlogintemp.jsp" NORESIZE  resize="none"  LEFTMARGIN="2" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="Auto" border="0">
+>>>>>>> 1.8.2.3
+</frameset>
+</html>
+

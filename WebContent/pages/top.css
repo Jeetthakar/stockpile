@@ -1,0 +1,48 @@
+.main {width:1000px; background-color:#FFFFFF;}
+.left {margin:0;padding:0;width:778px;}
+	.top {background:url(http://202.87.40.52/images/mc_common/topBg.jpg) no-repeat; width:778px; height:162px; margin:0;padding:0;}
+	.logo{width:255px; height:38px; padding:6 0 0 17px;}
+	.search{width:480px; padding:3 0 0 0px;}
+	.nav_bg4 {background:url(top_nav_bg4.jpg) repeat-x; height:30px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:12px; color:#000000;text-decoration: none; font-weight:bold;}
+	.nav_bg1 {background:url(top_nav_bg1.jpg) repeat-x; height:30px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:12px; color:#FFFFFF; text-decoration: none; font-weight:bold;}
+    .nav_bg5 {background:url(top_nav_bg6.jpg) repeat-x; height:28px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#000000; text-decoration: none; font-weight:bold;}
+    .nav_bg6 {background:url(top_nav_bg7.jpg) repeat-x; height:28px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#000000; text-decoration: none; font-weight:bold;} 
+    .nav_bg7 {background:url(top_nav_bg7.jpg) repeat-x; height:40px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#000000; text-decoration: none; font-weight:bold;} 
+    .nav_bg2 {background:url(top_nav_bg2.jpg) repeat-x; height:28px; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#000000; text-decoration: none; font-weight:bold;}
+    .nav_bg3 {background:url(top_nav_bg3.jpg) repeat-x; height:28px; font-family: tahoma; font-size:10px; color:#000000; text-decoration: none; font-weight:bold;}
+    .nav_bgTop {background:url(top_nav_bg2.jpg) repeat-x; height:28px; font-family: tahoma; font-size:10px; color:#000000; text-decoration: none; font-weight:bold;}
+    .nav_curve {width:5px; height:30px; background:url(nav_off_bg.jpg) no-repeat;}
+    .nav_curve1 {width:5px; height:30px; background:url(top_nav_bg4.jpg) no-repeat;}
+    .nav_curve2 {width:5px; height:28px; background:url(top_nav_bg6.jpg) no-repeat;}
+    .nav_curve3 {width:5px; height:30px; background:url(nav_curve111.jpg) no-repeat;}
+    .nav_curve4 {width:5px; height:30px; background:url(nav_curve112.jpg) no-repeat;}
+    .nav_curve5 {width:5px; height:30px; background:url(nav_on_bg8.jpg) repeat-x;}
+	.subNav {padding:7 1 7 8px;}
+	
+.right {margin:0;padding:0;width:222px;}
+	.top_R {background:url(http://202.87.40.52/images/mc_common/topBg2.jpg) no-repeat; width:222px; height:162px; margin:0;padding:0;}
+	.graybox {border:1px #CCCCCC solid; padding:5px; margin:6 6 6 4px;background-color:#FCFCFC;}
+	.headBg {height:13px; width:200px; background:url(http://202.87.40.52/images/mc_common/right_graybox_bg.gif) repeat-x;}
+	.head {height:13px; background-color:#FFFFFF; padding:0 10 0 10px; font-family: tahoma, Verdana; font-size:10px; color:#666666; text-decoration: none;}
+
+.bot {border-top:1px #CCCCCC solid;}
+	.botG1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:13px; color:#333333; text-decoration: none;}
+	.botB1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#003399; text-decoration: none;}
+
+.top_tdW1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:13px; color:#FFFFFF; text-decoration: none; font-weight:normal;}
+.top_tdB1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#FFFFFF;text-decoration: none; font-weight:normal;}
+.bot_tdG1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:10px; color:#666666; text-decoration: none; font-weight:normal;}
+
+a.top_LinkW1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:12px; color:#FFFFFF; text-decoration: none; font-weight:normal;}
+a.top_LinkW1:visited {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:12px; color:#FFFFFF; text-decoration: none; font-weight:normal;}
+a.top_LinkW1:hover {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:12px; color:#FFFFFF; text-decoration: underline; font-weight:normal;}
+
+a.bot_LinkB1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#003399; text-decoration: none; font-weight:normal;}
+a.bot_LinkB1:visited {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#003399; text-decoration: none; font-weight:normal;}
+a.bot_LinkB1:hover {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#003399; text-decoration: underline; font-weight:normal;}
+
+.bot_LinkG1 {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#333333; text-decoration: none; font-weight:normal;}
+.bot_LinkG1 a:visited {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#333333; text-decoration: none; font-weight:normal;}
+.bot_LinkG1 a:hover {font-family: Arial, tahoma, Verdana, trebuchet MS; font-size:11px; color:#333333; text-decoration: underline; font-weight:normal;}
+
+.inputControlT {color: #063293; background-color: #FFFFFF; border: 1px solid #94AFCA; font-family: Arial, tahoma, Verdana, trebuchet MS; font-size: 11px;}

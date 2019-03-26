@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Menus Home</title>
+<script type="text/javascript" language="JavaScript1.2" src="stm31.js"></script><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="stockpile_banner.jpg" width="1000" height="41" /></td>
+  </tr>
+  <tr>
+    <td align="center" bgcolor="#C1D2E7">
+		<script type="text/javascript" language="JavaScript1.2">
+		<!--
+		stm_bm(["menu61b2",860,"","blank.gif",0,"","",0,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand",""],this);
+		stm_bp("p0",[0,4,0,0,1,1,15,0,100,"",-2,"",-2,50,0,0,"#799BD8","transparent","",3,0,0,"#000000","",-1,-1,0,"transparent","",0,"",-1,-1,0,"transparent","",0,"",-1,-1,0,"transparent","",0,"",-1,-1,0,"transparent","",0,"","","","",0,0,0,0,0,0,0,0]);
+		stm_ai("p0i0",[0,"Home","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_01a.gif",15,15,0,"","",0,0,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",2,2,1,1,"#999999","#999999","#666666","#000000","bold 7pt Verdana","bold 7pt Verdana",0,0],100,0);
+		stm_aix("p0i1","p0i0",[0,"Index","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_01b.gif",15,15,0,"","",-1,-1,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",3,3,1,1,"#999999","#b3ca32","#666666","#b3ca32"],100,0);
+		stm_bp("p1",[1,4,0,1,1,1,5,0,100,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=in,enabled=0,Duration=0.50)",-2,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=out,enabled=0,Duration=0.50)",-2,60,0,0,"#799BD8","#FFFFFF","",3,1,1,"#b3ca32"]);
+		stm_aix("p1i0","p0i0",[0,"Add Index","","",-1,-1,0,"#","_self","","","icon_01c.gif","icon_01c.gif",5,18,0,"","",0,0,0,0,1,"#FFFFF7",1,"#b3ca32",0,"","",3,3,0,0,"#FFFFCC","#FFFFCC","#b3ca32","#396600"],0,18);
+		stm_aix("p1i1","p1i0",[0,"Compute Index"],0,18);
+		stm_aix("p1i2","p1i0",[0,"Index Update"],0,18);
+		stm_ep();
+		stm_aix("p0i2","p0i0",[1,"Corporate Action","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_02b.gif",15,15,0,"","",-1,-1,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",3,3,1,1,"#999999","#8CBEE1","#666666","#3ac6e1"],100,0);
+		stm_bp("p2",[1,4,0,1,1,1,5,10,100,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=in,enabled=0,Duration=0.50)",-2,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=out,enabled=0,Duration=0.50)",-2,60,0,0,"#799BD8","#FFFFFF","",3,1,1,"#3ac6e1"]);
+		stm_aix("p2i0","p0i0",[0,"Index Event","","",-1,-1,0,"#","_self","","","icon_02c.gif","icon_02c.gif",5,18,0,"060420arrow2.gif","060420arrow3.gif",10,5,0,0,1,"#FFFFF7",1,"#3ac6e1",0,"","",3,0,0,0,"#FFFFCC","#CCCC00","#3ac6e1","#05646E"],0,18);
+		stm_bpx("p3","p2",[1,2,-30,10,1,1,5,0,100,"progid:DXImageTransform.Microsoft.Iris(irisStyle=star,motion=in,enabled=0,Duration=0.50)",-2,"progid:DXImageTransform.Microsoft.Iris(irisStyle=star,motion=out,enabled=0,Duration=0.50)"]);
+		stm_aix("p3i0","p2i0",[0,"Change In IWF","","",-1,-1,0,"#","_self","","","icon_02d.gif","icon_02d.gif",5,5,0,"","",0,0],0,18);
+		stm_aix("p3i1","p3i0",[0,"Addition of Stock"],0,18);
+		stm_aix("p3i2","p3i0",[0,"Delition of Stock"],0,18);
+		stm_ep();
+		stm_aix("p2i1","p3i0",[0,"C.A Diary","","",-1,-1,0,"#","_self","","","icon_02c.gif","icon_02c.gif",5,18],0,18);
+		stm_ep();
+		stm_aix("p0i3","p0i0",[0,"Analytics","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_03b.gif",15,15,0,"","",-1,-1,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",3,3,1,1,"#999999","#3CB482","#666666","#3CB482"],100,0);
+		stm_bp("p4",[1,4,0,1,1,1,5,10,100,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=in,enabled=0,Duration=0.50)",-2,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=out,enabled=0,Duration=0.50)",-2,60,0,0,"#799BD8","#FFFFFF","",3,1,1,"#3CB482"]);
+		stm_aix("p4i0","p0i0",[0,"Index","","",-1,-1,0,"#","_self","","","icon_03c.gif","icon_03c.gif",5,18,0,"060420arrow2.gif","060420arrow3.gif",10,5,0,0,1,"#FFFFF7",1,"#03cb48",0,"","",3,0,0,0,"#FFFFCC","#CCCC00","#3CB482","#00643C"],150,18);
+		stm_bp("p5",[1,2,-30,10,1,1,5,0,100,"progid:DXImageTransform.Microsoft.Iris(irisStyle=star,motion=in,enabled=0,Duration=0.50)",-2,"progid:DXImageTransform.Microsoft.Iris(irisStyle=star,motion=out,enabled=0,Duration=0.50)",-2,60,0,0,"#799BD8","#FFFFFF","",3,1,1,"03cb48"]);
+		stm_aix("p5i0","p3i0",[0,"Menu Item 1","","",-1,-1,0,""]);
+		stm_aix("p5i1","p5i0",[0,"Menu Item 2"]);
+		stm_ep();
+		stm_aix("p4i1","p4i0",[0,"Stock"],150,18);
+		stm_bpx("p6","p5",[]);
+		stm_aix("p6i0","p4i0",[0,"DHTMLMenu Download","","",-1,-1,0,"#","_self","","","icon_03d.gif","icon_03d.gif",5,5,0,"","",0,0],0,18);
+		stm_aix("p6i1","p6i0",[],0,18);
+		stm_aix("p6i2","p6i0",[],0,18);
+		stm_aix("p6i3","p6i0",[],0,18);
+		stm_aix("p6i4","p6i0",[],0,18);
+		stm_aix("p6i5","p6i0",[],0,18);
+		stm_ep();
+		stm_aix("p4i2","p4i0",[0,"Weightage"],150,18);
+		stm_bpx("p7","p5",[]);
+		stm_aix("p7i0","p6i0",[0,"Menu Item 1","","",-1,-1,0,""]);
+		stm_aix("p7i1","p7i0",[0,"Menu Item 2"]);
+		stm_ep();
+		stm_aix("p4i3","p6i0",[0,"Portfolio Report","","",-1,-1,0,"#","_self","","","icon_03c.gif","icon_03c.gif",5,18],150,18);
+		stm_ep();
+		stm_aix("p0i4","p0i0",[0,"My Profile","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_04b.gif",15,15,0,"","",0,0,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",3,3,1,1,"#999999","#C8AA32","#666666","#C8AA32"],100,0);
+		stm_aix("p0i5","p0i0",[0,"Logout","","",-1,-1,0,"#","_self","","","icon_01a.gif","icon_01a.gif",15,15,0,"","",0,0,0,0,1,"#FFFFF7",0,"#FFFFF7",0,"","",3,3],100,0);
+		stm_ep();
+		stm_sc(1,["transparent","transparent","","",3,3,0,0,"#FFFFF7","#000000","up_disabled.gif","up_enabled.gif",7,9,0,"down_disabled.gif","down_enabled.gif",7,9,0,0,200]);
+		stm_em();
+
+		//-->
+		</script>
+
+
+
+
+	</td>
+  </tr>
+
+  <tr>
+    <td bgcolor="#82A4CE"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

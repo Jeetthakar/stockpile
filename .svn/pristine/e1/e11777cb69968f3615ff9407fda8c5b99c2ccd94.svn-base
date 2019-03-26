@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<!-- This is a blank Struts configuration file with an example welcome action/page 
+	and other commented sample elements. Tiles and the Struts Validator are configured 
+	using the factory defaults and are ready-to-use. NOTE: If you have a generator 
+	tool to create the corresponding Java classes for you, you could include 
+	the details in the "form-bean" declarations. Otherwise, you would only define 
+	the "form-bean" element itself, with the corresponding "name" and "type" 
+	attributes, as shown here. -->
+<struts-config>
+
+	<!-- ======================================== Form Bean Definitions -->
+	<form-beans type="org.apache.struts.action.ActionFormBean">
+		<form-bean name="logonForm" type="app.LogonForm" />
+		<form-bean name="newusersForm" type="app.NewusersForm" />
+		<form-bean name="forgotForm" type="app.ForgotForm" />
+		<form-bean name="questionForm" type="app.QuestionForm" />
+		<form-bean name="changepassForm" type="app.ChangepassForm" />
+		<form-bean name="newIndexForm" type="app.NewIndexForm" />
+		<form-bean name="FixedIncomeDefineIndexForm"
+			type="harrier.income.com.fixedincome.FixedIncomeDefineIndexForm" />
+		<form-bean name="computeIndex" type="app.ComputeIndexForm" />
+		<form-bean name="FixedIncomeComputeIndexForm"
+			type="harrier.income.com.fixedincome.FixedIncomeComputeIndexForm" />
+		<form-bean name="indexComposition" type="app.IndexCompositionForm" />
+		<form-bean name="FixedIncomeIndexCompositionForm"
+			type="harrier.income.com.fixedincome.FixedIncomeIndexCompositionForm" />
+		<form-bean name="baseValues" type="app.BaseValuesForm" />
+
+		<form-bean name="stockMasterForm" type="harrier.income.com.masters.StockMasterForm" />
+		<form-bean name="capturedIndexForm"
+			type="harrier.income.com.masters.CapturedIndexForm" />
+		<form-bean name="indexCalculatorForm" type="app.IndexCalculatorForm" />
+		<form-bean name="RatingCodes" type="harrier.income.com.masters.RatingCodes" />
+		<form-bean name="IdentifierCodes" type="harrier.income.com.masters.IdentifierCodes" />
+		<form-bean name="AddStockExchForm"
+			type="harrier.income.com.masters.AddStockExchForm" />
+		<form-bean name="AddCompanyForm" type="harrier.income.com.masters.AddCompanyForm" />
+
+		<form-bean name="corporate" type="app.Corporate" />
+
+		<form-bean name="FixedIncomeCorporate"
+			type="harrier.income.com.fixedincome.FixedIncomeCorporate" />
+		<form-bean name="stockMerger" type="app.StockMergerForm" />
+
+		<form-bean name="TimeZones" type="harrier.income.com.masters.TimeZones" />
+		<form-bean name="IndexType" type="harrier.income.com.masters.IndexType" />
+		<form-bean name="countries" type="harrier.income.com.masters.countries" />
+		<form-bean name="AddCurrency" type="harrier.income.com.masters.AddCurrency" />
+		<form-bean name="stocktype" type="harrier.income.com.masters.stocktype" />
+
+		<form-bean name="Continents" type="harrier.income.com.masters.Continents" />
+		<form-bean name="FrtoCurrency" type="harrier.income.com.masters.FrtoCurrency" />
+
+		<form-bean name="ActivityForm" type="harrier.income.com.masters.ActivityForm" />
+
+		<form-bean name="sysConfigBean" type="sysconfig.action.SysConfigForm" />
+		<form-bean name="ActivityBean" type="sysconfig.action.ActivityForm" />
+		<form-bean name="RolesBean" type="harrier.income.com.masters.RolesForm" />
+		<form-bean name="roleActivitiesBean"
+			type="harrier.income.com.masters.RoleActivitiesForm" />
+		<form-bean name="ExchangeHolidaysForm"
+			type="harrier.income.com.masters.ExchangeHolidaysForm" />
+
+		<form-bean name="indexUpdateBean" type="sysconfig.action.IndexUpdateForm" />
+		<form-bean name="industryClassificationBean"
+			type="harrier.income.com.masters.industryClassificationForm" />
+		<form-bean name="classificationLevelBean"
+			type="harrier.income.com.masters.classificationLevelForm" />
+		<form-bean name="classesBean" type="harrier.income.com.masters.classesForm" />
+		<form-bean name="CorporateActionMaster"
+			type="harrier.income.com.masters.CorporateActionMaster" />
+
+		<form-bean name="indComplianceMasterForm"
+			type="harrier.income.com.masters.IndComplianceMasterForm" />
+		<form-bean name="companyBean" type="harrier.income.com.masters.CompanyForm" />
+		<form-bean name="userRolesBean" type="sysconfig.action.UserRolesForm" />
+		<form-bean name="marketStatusBean" type="sysconfig.action.marketStatusForm" />
+
+		<form-bean name="indexDetailBean" type="sysconfig.action.indexDetailForm" />
+		<form-bean name="stockDetailsBean" type="harrier.income.com.report.stockDetailsForm" />
+		<form-bean name="capChangeUnivBean"
+			type="harrier.income.com.report.capitalChangeUnivForm" />
+		<form-bean name="stockListBean" type="harrier.income.com.report.stockListForm" />
+		<form-bean name="TradedVolumeBean" type="harrier.income.com.report.TradedVolumeForm" />
+		<form-bean name="FileDownLoadBean" type="harrier.income.com.report.FileDownLoadForm" />
+		<form-bean name="StockDividentBean"
+			type="harrier.income.com.report.StockDividentForm" />
+
+		<form-bean name="CompanyWiseWeightageBean"
+			type="harrier.income.com.report.CompanyWiseWeightageForm" />
+		<form-bean name="IndexCompareBean" type="harrier.income.com.report.IndexCompareForm" />
+		<form-bean name="InactiveStockListBean"
+			type="harrier.income.com.report.InactiveStockListForm" />
+		<form-bean name="IndexPerformanceBean"
+			type="harrier.income.com.report.IndexPerformanceForm" />
+		<form-bean name="Indexpe_pbBean" type="harrier.income.com.report.Indexpe_pbForm" />
+		<form-bean name="indexCalculatorBean"
+			type="harrier.income.com.report.IndexCalculatorForm" />
+		<form-bean name="stockDetailFDBean"
+			type="harrier.income.com.report.StockDetailFromDateForm" />
+
+		<form-bean name="EmailReportForm" type="harrier.income.com.report.EmailReportForm" />
+
+		<form-bean name="GainerLoosersBean"
+			type="harrier.income.com.report.MarketGainerLoosersForm" />
+
+		<form-bean name="LatestIndexBean" type="harrier.income.com.report.LatestIndexForm" />
+		<form-bean name="IndexComposeBean" type="harrier.income.com.report.IndexComposeForm" />
+		<form-bean name="DisplayIndexBean" type="harrier.income.com.report.DisplayIndexForm" />
+
+		<form-bean name="IndexListReportBean"
+			type="harrier.income.com.report.IndexListReportForm" />
+
+		<form-bean name="IndexWiseWeightBean"
+			type="harrier.income.com.report.IndexWiseWeightForm" />
+		<form-bean name="StockContributionBean"
+			type="harrier.income.com.report.StockContributionForm" />
+		<form-bean name="IndexCurrencyWiseBean"
+			type="harrier.income.com.report.IndexCurrencyWiseForm" />
+
+		<form-bean name="IndexReturnsVolatilityBean"
+			type="harrier.income.com.report.IndexReturnsVolatilityForm" />
+		<form-bean name="IndexMovingValueBean"
+			type="harrier.income.com.report.MovingIndexValueForm" />
+		<form-bean name="IndexDivisorBean" type="harrier.income.com.report.IndexDivisorForm" />
+		<form-bean name="MovingIndexValueBean"
+			type="harrier.income.com.report.MovingIndexValueForm" />
+		<form-bean name="DatFileUploadBean" type="app.DatFileUploadForm" />
+		<form-bean name="GICSFileUploadBean" type="app.GICSFileUploadForm" />
+		<form-bean name="stockmasterbondscommodity"
+			type="harrier.income.com.masters.StockMasterBondsCommodities" />
+		<form-bean name="ReportPerBean" type="harrier.income.com.report.ReportPerForm" />
+		<form-bean name="RemoveReportPerBean"
+			type="harrier.income.com.report.RemoveReportPerForm" />
+		<form-bean name="batchReportBean" type="harrier.income.com.report.BatchReportForm" />
+		<form-bean name="ReportPerNameBean"
+			type="harrier.income.com.report.ReportPerNameForm" />
+		<form-bean name="PortfolioReportBean"
+			type="harrier.income.com.report.PortfolioReportForm" />
+
+		<form-bean name="IndexGraphBean" type="harrier.income.com.report.IndexGraphForm" />
+
+		<form-bean name="SectorwiseBean" type="harrier.income.com.report.SectorwiseForm" />
+
+		<form-bean name="sectorContriToIndexBean"
+			type="harrier.income.com.report.SectorContriToIndexForm" />
+		<form-bean name="batchOutputBean" type="harrier.income.com.report.BatchOutputForm" />
+		<form-bean name="PatBean" type="app.PatForm" />
+		<form-bean name="PatBean1" type="app.PatForm1" />
+
+		<form-bean name="batchReportBeanN" type="harrier.income.com.report.BatchReportFormN" />
+		<form-bean name="FinanceResBean" type="app.FinanceResultForm" />
+		<form-bean name="backTestIndexBean" type="app.BackTestIndexForm" />
+		<form-bean name="regiform" type="subscription.form.subscribeUserForm" />
+		<form-bean name="accform" type="subscription.form.UseraccountinfoForm" />
+		<form-bean name="stockmasterbondscommoditybean"
+			type="harrier.income.com.fixedincome.StockMasterBondsCommodities" />
+
+		<form-bean name="tempform" type="subscription.form.subscriptionForm" />
+		<form-bean name="cancelform" type="subscription.form.CancelForm" />
+
+
+
+	</form-beans>
+	<!-- =================================== Global Forward Definitions -->
+	<global-forwards type="org.apache.struts.action.ActionForward">
+		<forward name="logoff" path="/Logoff.do" />
+		<forward name="logon" path="/Logon.do" />
+		<forward name="welcome" path="/Logon.do" />
+		<forward name="newusers" path="/Newusers.do" />
+		<forward name="changepass" path="/Changepass.do" />
+		<forward name="index" path="/pages/DisplayIndexes1.jsp" />
+		<forward name="welcome" path="/Welcome.do" />
+		<forward name="success" path="/pages/sysConfigView.jsp" />
+		<forward name="reset" redirect="true" path="/pages/sysConfigView.jsp" />
+		<forward name="callStockList" path="/StockList.do?compute=yes" />
+
+
+
+
+	</global-forwards>
+	<!-- =================================== Action Mapping Definitions -->
+	<action-mappings type="org.apache.struts.action.ActionMapping">
+		<action parameter="/pages/userlogintemp.jsp" path="/Welcome"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/pages/userlogintemp.jsp" path="/Logon"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/pages/newusers.jsp" path="/Newusers"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/pages/forgot.jsp" path="/Forgot"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/pages/DisplayIndexes1.jsp" path="/pages/DisplayIndexes1.jsp"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action input="/pages/userlogintemp.jsp" name="logonForm" path="/LogonSubmit"
+			scope="request" type="app.LogonAction" validate="true">
+			<forward name="success" redirect="true"
+				path="/pages/reports/DisplayIndexS.jsp?FromLogin=yes" />
+			<forward name="invalid" redirect="true"
+				path="/pages/userlogintemp.jsp?invalid=yes" />
+		</action>
+		<action input="/pages/newusers.jsp" name="newusersForm" path="/NewusersSubmit"
+			scope="request" type="app.NewusersAction" validate="true">
+			<forward name="register" path="/pages/accountpage.jsp" />
+		</action>
+		<!--<action input="/pages/changepass.jsp" name="changepassForm" path="/ChangepassSubmit" 
+			scope="request" type="app.ChangepassAction" validate="true"> <forward name="changed" 
+			path="/pages/accountpage.jsp" /> </action> -->
+
+		<action input="/pages/changepass.jsp" name="changepassForm"
+			path="/password" scope="session" type="app.ChangepassAction">
+			<forward name="success" path="/pages/changepass.jsp" />
+			<forward name="changed" path="/pages/passwordSaved.jsp" />
+		</action>
+
+
+
+
+		<action input="/pages/yourpass.jsp" name="questionForm" path="/QuestionSubmit"
+			scope="request" type="app.QuestionAction">
+			<forward name="done" path="/pages/success.jsp" />
+		</action>
+		<action input="/pages/forgot.jsp" name="forgotForm" path="/ForgotSubmit"
+			scope="request" type="app.ForgotAction" validate="true">
+			<forward name="forgot" path="/pages/question.jsp" />
+		</action>
+		<action path="/Logoff" type="app.LogoffAction">
+			<forward name="success" path="/pages/userlogintemp.jsp" />
+		</action>
+
+		<action input="/pages/NewIndexDefine.jsp" name="newIndexForm"
+			path="/NewIndexAction" scope="session" type="app.NewIndexDefineAction"
+			validate="true" />
+
+		<action input="/pages/NewIndexDefineRegister.jsp" name="newIndexForm"
+			path="/NewIndexActionRegister" scope="session" type="app.NewIndexDefineAction"
+			validate="true" />
+
+		<action input="/pages/fixedincome/FixedIncomeDefineIndex.jsp"
+			name="FixedIncomeDefineIndexForm" path="/FixedIncomeDefineIndexAction"
+			scope="session" type="harrier.income.com.fixedincome.FixedIncomeDefineIndexAction"
+			validate="true" />
+
+		<action input="/pages/IndexComposition.jsp" name="indexComposition"
+			path="/Compute" scope="session" type="app.IndexCompositionAction"
+			validate="true" />
+
+		<action input="/pages/fixedincome/FixedIncomeIndexComposition.jsp"
+			name="FixedIncomeIndexCompositionForm" path="/FixedIncomeCompute"
+			scope="session"
+			type="harrier.income.com.fixedincome.FixedIncomeIndexCompositionAction"
+			validate="true" />
+
+
+		<action input="/pages/GetbaseValue.jsp" name="baseValues" path="/Proceed"
+			scope="session" type="app.BaseValuesAction" validate="true" />
+		<action input="/pages/IndexHome.jsp" name="computeIndex" path="/ComputeIndex"
+			scope="session" type="app.ComputeIndexAction" validate="true" />
+
+		<action input="/pages/fixedincome/FixedIncomeIndexHome.jsp"
+			name="FixedIncomeComputeIndexForm" path="/FixedIncomeComputeIndex"
+			scope="session" type="harrier.income.com.fixedincome.FixedIncomeComputeIndexAction"
+			validate="true" />
+
+
+		<action input="/pages/masters/stockmaster2.jsp" name="stockMasterForm"
+			path="/stockMasterAction" scope="session"
+			type="harrier.income.com.masters.StockMasterAction" validate="true">
+			<forward name="success" path="/pages/masters/stockmaster2.jsp" />
+		</action>
+
+
+
+		<action input="/pages/fixedincome/StockMasterBonds.jsp" name="stockmasterbondscommoditybean"
+			path="/stockbondsAction" scope="session"
+			type="harrier.income.com.fixedincome.StockMasterBondsAction"
+			validate="true">
+			<forward name="success" path="/pages/fixedincome/StockMasterBonds.jsp" />
+		</action>
+
+
+
+
+
+
+		<action input="/pages/masters/AddCapturedIndex.jsp" name="capturedIndexForm"
+			path="/capturedIndexAction" scope="session"
+			type="harrier.income.com.masters.CapturedIndexAction" validate="true">
+			<forward name="success" path="/pages/masters/AddCapturedIndex.jsp" />
+		</action>
+
+
+
+		<action input="/pages/masters/RatingCodes.jsp" name="RatingCodes"
+			path="/ratcode" scope="request" type="harrier.income.com.masters.RatCodesAction">
+			<forward name="success" path="/pages/masters/RatingCodes.jsp" />
+		</action>
+
+		<action input="/pages/IndexEvents.jsp" name="corporate" path="/indexCA_Action1"
+			scope="session" type="app.IndexCA_Action" validate="true" />
+
+		<action input="/pages/CorporateDiary.jsp" name="corporate"
+			path="/corpDairy_Action" scope="session" type="app.CorpDairy_Action"
+			validate="true" />
+
+		<action input="/pages/UndoAction.jsp" name="corporate" path="/corpDairy_Action4"
+			scope="session" type="app.CorpDairy_Action" validate="true" />
+
+
+		<action input="/pages/NewIndexCorpAction.jsp" name="corporate"
+			path="/corpDairy_Action1" scope="session" type="app.CorpDairy_Action"
+			validate="true" />
+
+		<action input="/pages/NewCorporateAction.jsp" name="corporate"
+			path="/corpDairy_Action2" scope="session" type="app.CorpDairy_Action"
+			validate="true" />
+
+		<action input="/pages/EventCorpAction.jsp" name="corporate"
+			path="/corpDairy_Action3" scope="session" type="app.CorpDairy_Action"
+			validate="true" />
+
+
+		<action input="/pages/NCorporateAction.jsp" name="corporate"
+			path="/nCorp_Action" scope="session" type="app.NCorp_Action"
+			validate="true" />
+
+
+		<action input="/pages/HistoricAction.jsp" name="corporate"
+			path="/nCorp_Action2" scope="session" type="app.NCorp_Action"
+			validate="true" />
+
+		<action input="/pages/HistoricAction.jsp" name="corporate"
+			path="/indexCA_Action2" scope="session" type="app.IndexCA_Action"
+			validate="true" />
+
+		<action input="/pages/HistoricAction.jsp" name="corporate"
+			path="/indexCom_Action1" scope="session" type="app.IndexCom_Action"
+			validate="true" />
+
+		<action input="/pages/CorporateDetails.jsp" name="corporate"
+			path="/nCorp_Action1" scope="session" type="app.NCorp_Action"
+			validate="true" />
+
+		<action input="/pages/IndexCorporateDetails.jsp" name="corporate"
+			path="/indexCA_Action" scope="session" type="app.IndexCA_Action"
+			validate="true" />
+
+		<action input="/pages/IndexEventComposition.jsp" name="corporate"
+			path="/indexCom_Action" scope="session" type="app.IndexCom_Action"
+			validate="true" />
+
+		<action input="/pages/StockMerger.jsp" name="stockMerger"
+			path="/stockMergerAction" scope="session" type="app.StockMergerAction"
+			validate="true" />
+
+
+		<action input="/pages/masters/AddStockExchange.jsp" name="AddStockExchForm"
+			path="/addStockExchAction" scope="session"
+			type="harrier.income.com.masters.AddStockExchAction" validate="true">
+			<forward name="success" path="/pages/masters/AddStockExchange.jsp" />
+		</action>
+
+		<action input="/pages/masters/AddNewCompany.jsp" name="AddCompanyForm"
+			path="/addCompanyAction" scope="session"
+			type="harrier.income.com.masters.AddCompanyAction">
+			<forward name="success" path="/pages/masters/AddNewCompany.jsp" />
+		</action>
+
+		<action name="IdentifierCodes" input="/pages/masters/IdentifierCodes.jsp"
+			path="/idtcode" scope="request"
+			type="harrier.income.com.masters.IdentifierCodesAction">
+			<forward name="success" path="/pages/masters/IdentifierCodes.jsp" />
+		</action>
+
+		<action name="TimeZones" input="/pages/masters/TimeZone.jsp"
+			path="/zone" scope="request" type="harrier.income.com.masters.TimeZoneAction">
+			<forward name="success" path="/pages/masters/TimeZone.jsp" />
+		</action>
+
+		<action name="IndexType" input="/pages/masters/IndexType.jsp"
+			path="/ind" scope="request" type="harrier.income.com.masters.IndexTypeAction">
+			<forward name="success" path="/pages/masters/IndexType.jsp" />
+		</action>
+
+		<action name="countries" input="/pages/masters/countries.jsp"
+			path="/country" scope="request" type="harrier.income.com.masters.CountriesAction">
+			<forward name="success" path="/pages/masters/countries.jsp" />
+		</action>
+
+		<action input="/pages/masters/AddCurrency.jsp" name="AddCurrency"
+			path="/currency" scope="request" type="harrier.income.com.masters.AddCurrencyAction">
+			<forward name="success" path="/pages/masters/AddCurrency.jsp" />
+		</action>
+
+		<action input="/pages/masters/StockType.jsp" name="stocktype"
+			path="/type" scope="request" type="harrier.income.com.masters.StockTypeAction">
+			<forward name="success" path="/pages/masters/StockType.jsp" />
+		</action>
+
+		<action input="/pages/masters/Continents.jsp" name="Continents"
+			path="/cont" scope="request" type="harrier.income.com.masters.ContinentsAction">
+			<forward name="success" path="/pages/masters/Continents.jsp" />
+		</action>
+		<action input="/pages/masters/frtocurrency.jsp" name="FrtoCurrency"
+			path="/frto" scope="request" type="harrier.income.com.masters.FrtoCurrencyAction">
+			<forward name="success" path="/pages/masters/frtocurrency.jsp" />
+		</action>
+
+		<action input="/pages/masters/ExchangeHolidays.jsp" name="ExchangeHolidaysForm"
+			path="/holi" scope="session"
+			type="harrier.income.com.masters.ExchangeHolidaysAction">
+			<forward name="success" path="/pages/masters/ExchangeHolidays.jsp" />
+		</action>
+
+		<action input="/pages/reports/EmailReport.jsp" name="EmailReportForm"
+			path="/email" scope="session" type="harrier.income.com.report.EmailReportAction">
+			<forward name="success" path="/pages/reports/EmailConfirm.jsp" />
+		</action>
+
+		<action input="/pages/sysConfigView.jsp" name="sysConfigBean"
+			path="/SysConfig-action" scope="request" type="sysconfig.action.SysConfigAction"
+			validate="true">
+			<forward name="success" path="/pages/sysConfigView.jsp"
+				redirect="true" />
+
+		</action>
+
+		<action input="/pages/masters/rolesView.jsp" name="RolesBean"
+			path="/Roles-action" scope="request" type="harrier.income.com.masters.RolesAction"
+			validate="true">
+			<forward name="success" path="/pages/masters/rolesView.jsp"
+				redirect="true" />
+
+		</action>
+
+		<action input="/pages/masters/activitiesView.jsp" name="ActivityForm"
+			path="/Activity-action" scope="request"
+			type="harrier.income.com.masters.ActivityAction" validate="true">
+
+
+		</action>
+
+		<action input="/pages/masters/roleActivitiesView.jsp" name="roleActivitiesBean"
+			path="/roleActivities-action" scope="request"
+			type="harrier.income.com.masters.RoleActivitiesAction" validate="true">
+
+		</action>
+
+		<action input="/pages/indexUpdateView.jsp" name="indexUpdateBean"
+			path="/index-action" scope="request" type="sysconfig.action.IndexUpdateAction"
+			validate="true">
+
+		</action>
+
+		<action input="/pages/masters/industryClassificationMaster.jsp"
+			name="industryClassificationBean" path="/industryClassification-action"
+			scope="request" type="harrier.income.com.masters.industryClassificationAction"
+			validate="true">
+		</action>
+
+
+		<action input="/pages/masters/classificationLevel.jsp" name="classificationLevelBean"
+			path="/classificationLevel-action" scope="request"
+			type="harrier.income.com.masters.classificationLevelAction" validate="true">
+		</action>
+
+
+		<action input="/pages/masters/classes.jsp" name="classesBean"
+			path="/classes-action" scope="request"
+			type="harrier.income.com.masters.classesAction" validate="true">
+		</action>
+
+		<action input="/pages/masters/company.jsp" name="companyBean"
+			path="/company-action" scope="request"
+			type="harrier.income.com.masters.CompanyAction" validate="true">
+		</action>
+
+		<action input="/pages/userRolesView.jsp" name="userRolesBean"
+			path="/userRoles-action" scope="request" type="sysconfig.action.UserRolesAction"
+			validate="true">
+		</action>
+
+		<action input="/pages/masters/CorporateActionMaster.jsp" name="CorporateActionMaster"
+			path="/corpaction" scope="session"
+			type="harrier.income.com.masters.CorpMasterAction">
+			<forward name="success" path="/pages/masters/CorporateActionMaster.jsp" />
+		</action>
+
+		<action input="/pages/masters/IndComplianceMaster.jsp" name="indComplianceMasterForm"
+			path="/compliance" scope="session"
+			type="harrier.income.com.masters.IndComplianceMasterAction"
+			parameter="methodToCall">
+			<forward name="success" path="/pages/masters/IndComplianceMaster.jsp" />
+		</action>
+		<action input="/pages/MarketStatusDateWise1.jsp" name="marketStatusBean"
+			path="/marketStatus" scope="session" type="sysconfig.action.marketStatusAction"
+			validate="true">
+			<forward name="success" path="/pages/MarketStatusDateWise1.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/MarketGainerLoosers.jsp" name="GainerLoosersBean"
+			path="/marketStatus" scope="session"
+			type="harrier.income.com.report.MarketGainerLoosersAction" validate="true">
+			<forward name="success" path="/pages/MarketGainerLoosers.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/indexDetail.jsp" name="indexDetailBean"
+			path="/index-detail" scope="request" type="sysconfig.action.indexDetailAction"
+			validate="true">
+		</action>
+
+
+		<action input="/pages/reports/StockHighLowS.jsp" name="stockDetailsBean"
+			path="/stockDetails" scope="session"
+			type="harrier.income.com.report.stockDetailsAction" validate="true">
+		</action>
+
+		<action input="/pages/reports/CapitalChangeToUniverseS.jsp"
+			name="capChangeUnivBean" path="/capChangeUniv" scope="session"
+			type="harrier.income.com.report.capitalChangeUnivAction" validate="true">
+		</action>
+
+		<action input="/pages/reports/StockListS.jsp" name="stockListBean"
+			path="/StockList" scope="session" type="harrier.income.com.report.stockListAction"
+			validate="false">
+		</action>
+
+		<action input="/pages/reports/TradedVolumeInd_exchS.jsp" name="TradedVolumeBean"
+			path="/TradedVolumeInd_exchS" scope="session"
+			type="harrier.income.com.report.TradedVolumeAction" validate="true">
+		</action>
+
+		<action input="/pages/FileDownLoadS.jsp" name="FileDownLoadBean"
+			path="/FileDownLoad" scope="session"
+			type="harrier.income.com.report.FileDownLoadAction" validate="true">
+		</action>
+
+
+
+		<action input="/pages/reports/StockDividentS.jsp" name="StockDividentBean"
+			path="/StockDivident" scope="session"
+			type="harrier.income.com.report.StockDividentAction" validate="true">
+		</action>
+
+		<!-- Sonali -->
+		<action input="/pages/reports/CompanyWiseWeightageS.jsp" name="CompanyWiseWeightageBean"
+			path="/companyWiseWeightage" type="harrier.income.com.report.CompanyWiseWeightageAction"
+			validate="true" scope="session" parameter="/pages/reports/CompanyWiseWeightageS.jsp">
+
+			<forward name="success" path="/pages/reports/CompanyWiseWeightageS.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/IndexCompare1S.jsp" name="IndexCompareBean"
+			path="/indexCompare" scope="session"
+			type="harrier.income.com.report.IndexCompareAction" validate="true">
+			<forward name="success" path="/pages/reports/IndexCompare1S.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/IndexPerformanceS.jsp" name="IndexPerformanceBean"
+			path="/indexPerformance" scope="session"
+			type="harrier.income.com.report.IndexPerformanceAction" validate="true">
+			<forward name="success" path="/pages/reports/IndexPerformanceS.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/Indexpe_pbS.jsp" name="Indexpe_pbBean"
+			path="/indexpe_pb" scope="session" type="harrier.income.com.report.Indexpe_pbAction"
+			validate="true">
+			<forward name="success" path="/pages/reports/Indexpe_pbS.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/IndexCalculator.jsp" name="indexCalculatorBean"
+			path="/indexCalculatorAction" scope="session"
+			type="harrier.income.com.report.IndexCalculatorAction" validate="true">
+			<forward name="success" path="/pages/reports/IndexCalculator.jsp" />
+		</action>
+
+
+		<action input="/pages/reports/InactiveStockListS.jsp" name="InactiveStockListBean"
+			path="/inactiveStockList" type="harrier.income.com.report.InactiveStockListAction"
+			scope="session" validate="true">
+			<forward name="success" path="/pages/reports/InactiveStockListS.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/reports/PortpolioTisCalculator.jsp" name="indexCalculatorBean"
+			path="/portpolioTisCalculatorAction" scope="session"
+			type="harrier.income.com.report.PortpolioTisCalculatorAction"
+			validate="true">
+			<forward name="success" path="/pages/reports/PortpolioTisCalculator.jsp" />
+		</action>
+
+		<action input="/pages/reports/StockDetailFromDateS.jsp" name="stockDetailFDBean"
+			path="/stock-detailFD" scope="session"
+			type="harrier.income.com.report.StockDetailFromDateAction" validate="true">
+			<forward name="success" path="/pages/reports/StockDetailFromDateS.jsp"
+				redirect="true" />
+		</action>
+
+		<!-- Ashish -->
+		<action input="/pages/reports/LatestIndexDivisors.jsp" name="LatestIndexBean"
+			path="/LatestIndex" scope="session"
+			type="harrier.income.com.report.LatestIndexAction" validate="true">
+			<forward name="success" path="/pages/reports/LatestIndexDivisors.jsp"
+				redirect="true" />
+
+		</action>
+		<action input="/pages/reports/IndexComposeS.jsp" name="IndexComposeBean"
+			path="/IndexCompose" scope="session"
+			type="harrier.income.com.report.IndexComposeAction" validate="true">
+			<forward name="success" path="/Stockpile/pages/reports/IndexComposeS.jsp"
+				redirect="true" />
+
+
+		</action>
+
+		<action input="/pages/reports/DisplayIndexS.jsp" name="DisplayIndexBean"
+			path="/DisplayIndex" scope="session"
+			type="harrier.income.com.report.DisplayIndexAction" validate="true">
+			<forward name="success" path="/Stockpile/pages/reports/DisplayIndexS.jsp"
+				redirect="true" />
+		</action>
+
+		<!-- Manoj Adekar -->
+		<action input="/pages/reports/IndexListReport.jsp" name="IndexListReportBean"
+			path="/IndexListRpt" scope="session"
+			type="harrier.income.com.report.IndexListReportAction" validate="true">
+			<forward name="success" path="/pages/reports/IndexGraph.jsp"
+				redirect="true" />
+		</action>
+
+
+
+		<action input="/pages/reports/IndWiseWeightS.jsp" name="IndexWiseWeightBean"
+			path="/IndexWiseWeight" scope="session"
+			type="harrier.income.com.report.IndexWiseWeightAction" validate="true">
+			<forward name="success" path="/Stockpile/pages/reports/IndWiseWeightS.jsp"
+				redirect="true" />
+
+
+		</action>
+
+		<action input="/pages/reports/StockContriToIndexChangeS.jsp"
+			name="StockContributionBean" path="/StockContribution" scope="session"
+			type="harrier.income.com.report.StockContributionAction" validate="true">
+			<forward name="success"
+				path="/Stockpile/pages/reports/StockContriToIndexChangeS.jsp"
+				redirect="true" />
+
+
+		</action>
+		<action input="/pages/reports/IndexCurrencyWiseS.jsp" name="IndexCurrencyWiseBean"
+			path="/IndexCurrencyWise" scope="session"
+			type="harrier.income.com.report.IndexCurrencyWiseSAction" validate="true">
+			<forward name="success"
+				path="/Stockpile/pages/reports/PortpolioTisCalculator.jsp" redirect="true" />
+
+		</action>
+
+		<action input="/pages/masters/NewIssues.jsp" name="stockMasterForm"
+			path="/stockMasterAction1" scope="session"
+			type="harrier.income.com.masters.StockMasterAction" validate="true">
+		</action>
+
+		<!-- Pankaj -->
+		<action input="/pages/reports/IndexReturns_VolatilityS.jsp"
+			name="IndexReturnsVolatilityBean" path="/IndexReturnsVolatilityAction"
+			scope="session" type="harrier.income.com.report.IndexReturnsVolatilityAction"
+			validate="true">
+			<forward name="success111" path="/pages/reports/IndexReturns_VolatilityS.jsp" />
+		</action>
+
+		<action input="/pages/reports/Index_DivisorS.jsp" name="IndexDivisorBean"
+			path="/indexDivisorAction" scope="session"
+			type="harrier.income.com.report.IndexDivisorAction" validate="true">
+			<forward name="success123" path="/pages/reports/Index_DivisorS.jsp" />
+		</action>
+
+		<action input="/pages/reports/MoveIndexValueS.jsp" name="MovingIndexValueBean"
+			path="/MovingIndexValue" scope="session"
+			type="harrier.income.com.report.MovingIndexValueAction" validate="true">
+			<forward name="success" path="/pages/reports/MoveIndexValueS.jsp" />
+		</action>
+		<action input="/pages/reports/AllReports.jsp" path="/allReports"
+			scope="session" type="harrier.income.com.report.AllReportsAction"
+			validate="true">
+		</action>
+
+		<action input="/pages/DatFileUpload.jsp" name="DatFileUploadBean"
+			path="/datFileUpload" scope="session" type="app.DatFileUploadAction"
+			validate="true">
+		</action>
+
+		<action input="/pages/GICSFileDialog.jsp" name="GICSFileUploadBean"
+			path="/GICSFileUpload" type="app.GICSFileUploadAction" scope="request"
+			validate="true">
+			<forward name="success" path="/pages/GICSFileDialog.jsp"
+				redirect="true" />
+		</action>
+
+		<action input="/pages/masters/StockMasterBonds.jsp" name="stockmasterbondscommodity"
+			path="/bondsAction" scope="session"
+			type="harrier.income.com.masters.StockMasterBondsAction" validate="true">
+			<forward name="success" path="/pages/masters/StockMasterBonds.jsp" />
+		</action>
+
+		<action input="/pages/reports/ReportPre.jsp" name="ReportPerBean"
+			path="/ReportPre" scope="session" type="harrier.income.com.report.ReportPerAction"
+			validate="true">
+			<forward name="success" path="/pages/reports/ReportPre.jsp" />
+		</action>
+
+		<action input="/pages/reports/RemoveReportPre.jsp" name="RemoveReportPerBean"
+			path="/RemoveReportPre" scope="session"
+			type="harrier.income.com.report.RemoveReportPerAction" validate="true">
+			<forward name="success" path="/pages/reports/RemoveReportPre.jsp" />
+		</action>
+
+		<action input="/pages/reports/BatchReports.jsp" name="batchReportBean"
+			path="/batchReportAction" scope="session"
+			type="harrier.income.com.report.BatchReportAction" validate="true">
+			<forward name="success" path="/pages/reports/BatchReports.jsp" />
+		</action>
+
+		<action input="/pages/reports/ReportPreName.jsp" name="ReportPerNameBean"
+			path="/ReportPreName" scope="session"
+			type="harrier.income.com.report.ReportPerNameAction" validate="true">
+			<forward name="success" path="/pages/reports/ReportPreName.jsp" />
+		</action>
+
+		<action input="/pages/reports/BatReportOut.jsp" name="batchOutputBean"
+			path="/batchOutputAction" scope="session"
+			type="harrier.income.com.report.BatchOutputAction" validate="true">
+			<forward name="success" path="/pages/reports/BatReportOut.jsp" />
+		</action>
+
+		<action input="/pages/Pat.jsp" name="PatBean" path="/Pat"
+			scope="session" type="app.PatAction" validate="true">
+			<forward name="success" path="/pages/Pat.jsp" />
+		</action>
+
+		<action input="/pages/PatForm.jsp" name="PatBean1" path="/Pat1"
+			scope="session" type="app.PatAction1" validate="true">
+			<forward name="success" path="/pages/PatForm.jsp" />
+		</action>
+
+		<action input="/pages/reports/BatchReportsN.jsp" name="batchReportBeanN"
+			path="/batchReportActionN" scope="session"
+			type="harrier.income.com.report.BatchReportActionN" validate="true">
+			<forward name="success" path="/pages/reports/BatchReportsN.jsp" />
+		</action>
+
+		<action input="/pages/reports/PortfolioReport.jsp" name="PortfolioReportBean"
+			path="/portfolioReportAction" scope="session"
+			type="harrier.income.com.report.PortfolioReportAction" validate="true">
+			<forward name="success" path="/pages/reports/BatchReportsN.jsp" />
+		</action>
+
+		<action input="/pages/reports/IndexGraph.jsp" name="IndexGraphBean"
+			path="/IndexGraphAct" scope="session"
+			type="harrier.income.com.report.IndexGraphAction" validate="true">
+			<forward name="success" path="/pages/reports/IndexGraph.jsp" />
+		</action>
+
+
+		<action input="/pages/reports/SectorwiseCmp.jsp" name="SectorwiseBean"
+			path="/sectorwiseAction" scope="session"
+			type="harrier.income.com.report.SectorwiseAction" validate="true">
+			<forward name="success" path="/pages/reports/SectorwiseCmp.jsp" />
+		</action>
+
+		<action input="/pages/reports/SectorContriToIndex.jsp" name="sectorContriToIndexBean"
+			path="/sectorContriToIndexAction" scope="session"
+			type="harrier.income.com.report.SectorContriToIndexAction" validate="true">
+			<forward name="success" path="/pages/reports/SectorContriToIndex.jsp" />
+		</action>
+
+		<action input="/pages/FinanceResult.jsp" name="FinanceResBean"
+			path="/FinanceResAction" scope="session" type="app.FinanceResultAction"
+			validate="true">
+			<forward name="success" path="/pages/FinanceResult.jsp" />
+		</action>
+
+		<action input="/pages/BackTestIndex.jsp" name="backTestIndexBean"
+			path="/backtestaction" scope="session" type="app.BackTestIndexAction"
+			validate="true">
+		</action>
+
+
+		<action input="/pages/fixedincome/FixedIncomeNCorporateAction.jsp"
+			name="FixedIncomeCorporate" path="/FixedIncomeNCorp_Action" scope="session"
+			type="harrier.income.com.fixedincome.FixedIncomeNCorp_Action"
+			validate="true" />
+
+		<action input="/pages/masters/commodities.jsp" name="stockmasterbondscommodity"
+			path="/commodityAction" scope="session"
+			type="harrier.income.com.masters.CommodityAction" validate="true">
+			<forward name="success" path="/pages/masters/commodities.jsp" />
+		</action>
+
+		<action input="/pages/SubscriptionDetails.jsp" name="tempform"
+			path="/load" scope="request" type="subscription.action.LoadCollection"
+			validate="true">
+			<forward name="success" redirect="true" path="/pages/testPaypal.jsp" />
+
+			<forward name="exist" redirect="true"
+				path="/pages/SubscriptionDetails.jsp" />
+		</action>
+
+<!-- 		<action input="/pages/SubscriptionDetails.jsp" name="tempform" -->
+<!-- 			path="/load" scope="request" type="subscription.action.LoadCollection" -->
+<!-- 			validate="true"> -->
+<!-- 			<forward name="success" redirect="true" path="index.html" /> -->
+
+<!-- 			<forward name="exist" redirect="true" -->
+<!-- 				path="/pages/SubscriptionDetails.jsp" /> -->
+<!-- 		</action> -->
+
+		<action input="/pages/Admin.jsp" name="accform" path="/cancelsubscription"
+			scope="request" type="subscription.action.cancelsubscriptionAction"
+			validate="true">
+			<forward name="success" redirect="true" path="/pages/Admin.jsp" />
+			<forward name="exist" redirect="true" path="/pages/existsubscription.jsp" />
+		</action>
+
+		<!--chandra -->
+		<action input="/pages/userregistration.jsp" name="regiform"
+			path="/submitregiform" scope="request"
+			type="subscription.action.UserRegistrationAction" validate="true">
+			<forward name="success" redirect="true"
+				path="pages/mailforconfirmation.jsp" />
+			<forward name="fail" redirect="true" path="pages/mailfail.jsp" />
+			<forward name="datafail" redirect="true"
+				path="/pages/userregistration.jsp" />
+			<forward name="exist" redirect="true" path="/pages/userregistration.jsp" />
+		</action>
+
+		<action input="/pages/comeback.jsp" path="/subscriberdata"
+			scope="request" type="subscription.action.SubscriptiondataAction"
+			validate="true">
+			<forward name="success" redirect="true" path="/login.do" />
+			<forward name="fail" redirect="true" path="pages/mailfail.jsp" />
+			<forward name="datafail" redirect="true"
+				path="/pages/userregistration.jsp" />
+			<forward name="exist" redirect="true" path="/pages/userregistration.jsp" />
+
+		</action>
+
+		<action input="/pages/confirmemail.jsp" name="regiform" path="/confirmuser"
+			scope="request" type="subscription.action.ConfirmUserAction"
+			validate="true">
+			<forward name="success" redirect="true" path="pages/doneconfermation.jsp" />
+			<forward name="datafail" redirect="true" path="/pages/confirmemail.jsp" />
+			<forward name="exist" redirect="true" path="/pages/confirmemail.jsp" />
+			<forward name="noexist" redirect="true" path="/pages/confirmemail.jsp" />
+		</action>
+
+
+		<action input="/pages/userlogin.jsp" name="regiform" path="/login"
+			scope="request" type="subscription.action.LoginAction" validate="true">
+			<forward name="success" redirect="true" path="pages/useraccountinfo.jsp" />
+			<forward name="noexist" redirect="true" path="pages/userlogin.jsp" />
+			<forward name="datafail" redirect="true" path="pages/userlogin.jsp" />
+
+		</action>
+		<action input="/pages/forgotpassword.jsp" name="regiform"
+			path="/forgotpassword" scope="request"
+			type="subscription.action.ForgotPasswordAction" validate="true">
+			<forward name="success" redirect="true" path="/pages/userlogintemp.jsp" />
+			<forward name="datafail" redirect="true" path="/pages/forgotpassword.jsp" />
+			<forward name="noexist" redirect="true" path="/pages/forgotpassword.jsp" />
+		</action>
+
+		<action input="/pages/useraccountinfo.jsp" name="accform" path="/cancel"
+			scope="request" type="subscription.action.CancelationdataAction"
+			validate="true">
+			<forward name="success" redirect="true"
+				path="pages/movetocancelation.jsp" />
+			<forward name="fail" redirect="true" path="pages/mailfail.jsp" />
+			<forward name="datafail" redirect="true"
+				path="/pages/userregistration.jsp" />
+			<forward name="exist" redirect="true" path="/pages/userregistration.jsp" />
+		</action>
+
+		<action input="/pages/cancelsubscription.jsp" name="cancelform"
+			path="/cancelsubscription" scope="request"
+			type="subscription.action.cancelsubscriptionAction" parameter="method"
+			validate="true">
+			<forward name="success" redirect="true"
+				path="/pages/cancelsubscription.jsp" />
+
+		</action>
+
+
+
+	</action-mappings>
+
+
+
+
+	<!-- ================================ Message Resources Definitions -->
+
+
+
+	<message-resources parameter="resources.application" />
+
+
+
+
+
+	<!-- ======================================= Plug Ins Configuration -->
+
+
+	<!-- ========== Tiles plugin =================== -->
+	<!-- -->
+	<!-- This plugin initialize Tiles definition factory. This later can takes 
+		some parameters explained here after. The plugin first read parameters from 
+		web.xml, then overload them with parameters defined here. All parameters 
+		are optional. The plugin should be declared in each struts-config file. - 
+		definitions-config: (optional) Specify configuration file names. There can 
+		be several comma separated file names (default: ?? ) - moduleAware: (optional 
+		- struts1.1) Specify if the Tiles definition factory is module aware. If 
+		true (default), there will be one factory for each Struts module. If false, 
+		there will be one common factory for all module. In this later case, it is 
+		still needed to declare one plugin per module. The factory will be initialized 
+		with parameters found in the first initialized plugin (generally the one 
+		associated with the default module). true : One factory per module. (default) 
+		false : one single shared factory for all modules - definitions-parser-validate: 
+		(optional) Specify if xml parser should validate the Tiles configuration 
+		file. true : validate. DTD should be specified in file header. (default) 
+		false : no validation Paths found in Tiles definitions are relative to the 
+		main context. -->
+
+
+	<!-- end comment if struts1.0.x -->
+
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml,
+                                              /WEB-INF/validation.xml" />
+	</plug-in>
+
+</struts-config>
+

@@ -1,0 +1,19 @@
+vti_encoding:SR|utf8-nl
+http\://www.nseindia.com/marketinfo/equities/cmquote.jsp:indexcompos21.htm diary.htm indexcompos2.html
+nindexdefine.jsp:stockdetails.htm
+/income/pages/tree1.jsp:framedemo.html
+/income/pages/login1.jsp:framedemo.html
+/income/pages/emailsend.jsp:emailsenderror.html
+http\://www.harrierincome.com/:indexcompos21.htm indexcompos2.html indexmasters.htm indexcomposeroughjsp.html indexcomposition.htm
+http\://:indexcompos21.htm diary.htm indexcompos2.html indexmasters.htm tree\\ backup/tree.html indexcomposeroughjsp.html indexcomposition.htm
+/income/pages/displayimage.html:framedemo.html
+tree backup/fold.gif:tree\\ backup/tree1.html tree\\ backup/tree.html
+/income/pages/menu2.jsp:framedemo.html
+/e\:/iit/images/gray.jpg:indexcompos21.htm indexcompos2.htm corporateaction.htm indexcompos2.html indexmasters.htm indexcompos3.htm stockdetails.htm indexcompos.htm tableofstock.htm indexcomposeroughjsp.html indexcomposition.htm
+http\://www.iitmsindia.com:indexcompos21.htm indexcompos2.html indexmasters.htm indexcomposeroughjsp.html indexcomposition.htm
+http\://192.168.0.3\:8080/income/pages/newusers.jsp:indexcompos2.htm
+http\://www.dynamicdrive.com:tree\\ backup/tree1.html tree2.html tree.html tree\\ backup/tree.html
+tree backup/list.gif:tree\\ backup/tree1.html tree\\ backup/tree.html
+/c\:/eclipse/workspace1/income/webcontent/script/codethatcalendarstd.js:menu2.html
+org.jfree.chart.demo.servlet.mousezoomdemo/mousezoomdemo.class:appchart.html
+<%= graphurl %>:indexcomposeroughjsp.html

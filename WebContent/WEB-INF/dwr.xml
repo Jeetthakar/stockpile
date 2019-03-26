@@ -1,0 +1,47 @@
+
+<dwr>
+  <init>
+  
+  </init>	
+  <allow>
+	   <create creator="new" javascript="MoveTable">
+      	<param name="class" value="harrier.income.com.report.MovingIndexTableA"/>
+      </create>
+      <convert converter="bean"
+	        match="harrier.income.com.report.IndexMovingDetail"/>      
+      <convert converter="bean"
+	        match="harrier.income.com.report.IndexCalculatorDetails"/> 
+	  <convert converter="bean"
+	        match="harrier.income.com.report.Latest"/>  
+	  <convert converter="bean"
+	        match="harrier.income.com.report.IndexPerformanceModel"/>  
+	  <convert converter="bean"
+	        match="harrier.income.com.report.DetailIndex"/>
+	  <convert converter="bean"
+	        match="harrier.income.com.report.IndexPePbDetails"/>
+      <convert converter="bean"
+	        match="harrier.income.com.report.indexMove"/> 
+      <convert converter="bean"
+	        match="harrier.income.com.report.StockDetails"/>       
+	  <convert converter="bean"
+	        match="harrier.income.com.report.InactiveStockDetails"/>
+	  <convert converter="bean"
+	        match="harrier.income.com.report.IndexWise"/>        
+	  <convert converter="bean"
+	        match="harrier.income.com.report.CompanyWiseWeightageDetails"/>  
+	  <convert converter="bean"
+	        match="harrier.income.com.report.StockContri"/>  
+	  <convert converter="bean"
+	        match="harrier.income.com.report.returnVol"/>                                     
+	        
+	  <create creator="new" javascript="IndexComposeReport">
+      	<param name="class" value="harrier.income.com.report.IndexComposeReportAjax"/>
+      </create>
+      <convert converter="bean"
+	        match="harrier.income.com.report.IndexCompose12"/>    
+	        
+	  <create creator="new" javascript="GraphMethods">
+      	<param name="class" value="harrier.income.com.report.AjaxGraphMethods"/>
+      </create>                      
+  </allow>
+</dwr> 	

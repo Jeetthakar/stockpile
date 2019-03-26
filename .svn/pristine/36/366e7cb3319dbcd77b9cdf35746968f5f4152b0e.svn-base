@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE form-validation PUBLIC
+          "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.0//EN"
+          "http://jakarta.apache.org/commons/dtds/validator_1_0.dtd">
+
+<form-validation>
+
+<!--
+     This is a blank Validator form file with a commented examples.
+-->
+
+    <global>
+	
+        <!-- An example global constant
+        <constant>
+            <constant-name>postalCode</constant-name>
+            <constant-value>^\d{5}\d*$</constant-value>
+        </constant>
+        end example-->
+
+    </global>
+    
+
+    <formset >
+		<form name="TimeZones">
+		 <field property="time_d" depends="integer,required">
+		   <arg0 key="timeZone.td"/>
+		 </field>
+		  <field property="desc" depends="required">
+		  	<arg0 key="timeZone.desc"/>
+		  </field>
+		
+		</form>
+		
+		
+		<form name="newusersForm">
+		  <field property="id" depends="maxlength,minlength,required">
+		    <arg0 key="newUsers.UserId"/>
+		    <arg1 key="${var:maxlength}" name="maxlength" resource="false"/>
+		    <arg1 key="${var:minlength}" name="minlength" resource="false"/>
+		    <var>
+		      <var-name>maxlength</var-name>
+		      <var-value>10</var-value>
+		    </var>
+		    <var>
+		      <var-name>minlength</var-name>
+		      <var-value>6</var-value>
+		    </var>
+		  </field>
+		   
+		  <field property="pw1" depends="maxlength,minlength,required">
+		    <arg0 key="newUsers.Password"/>
+		    <arg1 key="${var:maxlength}" name="maxlength" resource="false"/>
+		    <arg1 key="${var:minlength}" name="minlength" resource="false"/>
+		    <var>
+		      <var-name>maxlength</var-name>
+		      <var-value>10</var-value>
+		    </var>
+		    <var>
+		      <var-name>minlength</var-name>
+		      <var-value>6</var-value>
+		    </var>
+		  </field>
+		  
+		  <field property="pw" depends="maxlength,minlength,required">
+		    <arg0 key="newUsers.Re"/>
+		    <arg1 key="${var:maxlength}" name="maxlength" resource="false"/>
+		    <arg1 key="${var:minlength}" name="minlength" resource="false"/>
+		    <var>
+		      <var-name>maxlength</var-name>
+		      <var-value>10</var-value>
+		    </var>
+		    <var>
+		      <var-name>minlength</var-name>
+		      <var-value>6</var-value>
+		    </var>
+		  </field>
+		   <field property="seqq" depends="required">
+		  	<arg0 key="newUsers.security"/>
+		  </field>
+		  <field property="ans" depends="required">
+		  	<arg0 key="newUsers.youranswer"/>
+		  </field>
+		  
+		  <field property="id2" depends="required">
+		    <arg0 key="newUsers.bday"/>
+		  </field>
+		 
+		  
+		  
+		  <field property="fn" depends="required">
+		  	<arg0 key="newUsers.first"/>
+		  </field>
+		 
+		   <field property="gender" depends="required">
+		  	<arg0 key="newUsers.gender"/>
+		  </field>
+		  <field property="addr1" depends="required">
+		  	<arg0 key="newUsers.add1"/>
+		  </field>
+		  <field property="city1" depends="mask,required">
+		    <arg0 key="newUsers.city"/>
+		    <var>
+		      <var-name>mask</var-name>
+		      <var-value>^[a-zA-Z]+$</var-value>
+		    </var>
+		  </field>
+		 
+		 
+		  <field property="zip1" depends="integer,required">
+		    <arg0 key="newUsers.zip"/>
+		  </field>
+		  <field property="country" depends="required">
+		  	<arg0 key="newUsers.country"/>
+		  </field>
+		  <field property="mobile" depends="integer">
+		    <arg0 key="newUsers.mob"/>
+		  </field>
+		  <field property="phone" depends="integer">
+		    <arg0 key="newUsers.phone"/>
+		  </field>
+		   <field property="email" depends="email,required">
+		    <arg0 key="newUsers.email"/>
+		  </field>
+		</form>
+		
+		<form name="indComplianceMasterForm">
+					
+		  
+			  <field property="d1" depends="required">
+		  			<arg0 key="indCompliance.Select_Action"/>
+			  </field>
+			  <field property="name_list" depends="required">
+			  	  <arg0 key="indCompliance.select"/>
+			  	</field>
+			   <field property="name1" depends="required">
+		  			<arg0 key="indCompliance.name"/>
+			  </field>
+			   <field property="stockType" depends="required">
+		  			<arg0 key="stockmaster.stockType"/>
+			  </field>
+			  <field property="stockExange" depends="required">
+			  <arg0 key="indCompliance.stockExc"/>
+			  </field>
+			  <field property="d3" depends="required">
+		  			<arg0 key="indCompliance.ind"/>
+			  </field>
+			  	
+			  	
+		</form>
+		
+		
+		<form name="companyBean">
+					
+		  	<field property="selectCompany" depends="required">
+		  			<arg0 key="classCompany.selectCompany"/>
+			  </field>
+			 <field property="selectICName" depends="required">
+		  			<arg0 key="industryClasificationMaster.selectIC"/>
+			  </field>
+		</form>
+		<form name="classesBean">
+			
+			  <field property="selectICName" depends="required">
+			    <arg0 key="industryClasificationMaster.selectIC"/>
+			  </field>
+			  <field property="selectClassLevel" depends="required">
+			  	<arg0 key="classificationLevel.selectClassificationLevel" />
+			  </field>
+			  
+			  <field property="radioButton" depends="required">
+			  	 <arg0 key="classificationLevel.selectClassificationLevel" />
+			  </field>
+			  <field property="newClassName" depends="required">
+			  	 <arg0 key="classes.newClassName" />
+			  </field>
+			  <field property="classCode" depends="required">
+			  	 <arg0 key="classes.code" />
+			  </field>
+		</form>
+		
+		<form name="classificationLevelBean">
+		  <field property="selectICName" depends="required">
+		       <arg0 key="industryClasificationMaster.selectIC"/>
+		  </field>
+			
+		  <field property="newClassLevel" depends="required">
+		  		<arg0 key="classificationLevel.newClassificationLevel"/>
+		  </field>
+				  
+		  <field property="shortName" depends="required">
+		  	<arg0 key="industryClasificationMaster.ShortName"/>
+		  </field>
+		  
+		</form>
+		
+		<form name="industryClassificationBean">
+		 
+		   <field property="icName" depends="required">
+		    <arg0 key="industryClasificationMaster.ICName"/>
+		    
+		  </field>
+		   <field property="shortName" depends="required">
+		      <arg0 key="industryClasificationMaster.ShortName"/>
+		  </field>
+		  
+		</form>
+		<form name="RolesBean">
+		  <field property="roleName" depends="required">
+		      <arg0 key="rolesForm.RoleName"/>
+		  </field>
+		  
+		</form>
+		<form name="userRolesBean">
+		  <field property="selectUName" depends="required">
+		       <arg0 key="userRoles.selectUserName"/>
+		  </field>
+		  
+		</form>
+		
+		<form name="ActivityBean">
+		  <field property="activityName" depends="required">
+		       <arg0 key="activityForm.ActivityName"/>
+		  </field>
+		   <field property="activityCode" depends="required">
+		       <arg0 key="activityForm.activityCode"/>
+		  </field>
+		</form>
+		
+		<form name="roleActivitiesBean">
+		  <field property="selectRName" depends="required">
+		    <arg0 key="rolesForm.selectRoleName"/>
+		  </field>
+		</form>
+		
+		<form name="indexUpdateBean">
+			<field property="index_id" depends="required">
+		  		<arg0 key="indexUpdate.selectIndex"/>
+		  </field>
+		  <field property="index_name" depends="required">
+		    <arg0 key="defineIndex7"/>
+		   
+		  </field>
+		  
+		 
+		  <field property="alert_percentage" depends="float,required,alertLessRejection">
+		  	<arg0 key="sysConfigForm.alertPercentage"/>
+		  </field>
+		  <field property="m_start_time" depends="mask,required">
+			  <arg0 key="defineIndex19"/>
+			  <var>
+			    <var-name>mask</var-name>
+			    <var-value>^\d{2}:\d{2}:\d{2}$</var-value>
+			  </var>
+			</field>
+		  <field property="n_stop_time" depends="mask,required">
+			  <arg0 key="defineIndex20"/>
+			  <var>
+			    <var-name>mask</var-name>
+			    <var-value>^\d{2}:\d{2}:\d{2}$</var-value>
+			  </var>
+			</field>
+		  <field property="rejection_percentage" depends="float,rejection,required">
+			  <arg0 key="sysConfigForm.rejectionPercentage"/>
+			</field>
+		</form>
+		<form name="sysConfigBean">
+        
+           <field property="computationInterval" depends="integer,required">
+           <arg0 key="sysConfigForm.computeInterval"/>
+         </field>
+         
+         <field property="monitorRefreshRate" depends="integer,required">
+           <arg0 key="sysConfigForm.moniterRefreshRate"/>
+         </field>
+        
+         
+          
+          <field property="precisionValue" depends="integer,required">
+           <arg0 key="sysConfigForm.precisionValue"/>
+         </field>
+         
+          <field property="rateOfPriceFeed" depends="integer,required">
+           <arg0 key="sysConfigForm.ropf"/>
+         </field>
+         
+          <field property="intraDayArchivalInterval" depends="integer,required">
+         	<arg0 key="sysConfigForm.intraDay"/>
+         </field>
+          
+		  <field property="marketLot" depends="integer,required">
+		  	<arg0 key="sysConfigForm.marketLot"/>
+		  </field>
+		   <field property="dateDifference" depends="integer,required">
+        	<arg0 key="sysConfigForm.dateDifference"/>
+		  </field>
+         
+         
+          <field property="maxNoOfCompanies" depends="integer,required">
+           <arg0 key="sysConfigForm.maxComp"/>
+         </field>
+         
+           <field property="alertPercentage" depends="float,required,alertLessRejection">
+             <arg0 key="sysConfigForm.alertPercentage"/>
+           </field>
+         
+           <field property="rejectionPercentage" depends="float,required,rejection">
+             <arg0 key="sysConfigForm.rejectionPercentage"/>
+           </field>
+       
+        <field property="industryClassificationId" depends="required">
+        	<arg0 key="sysConfigForm.industryClassification"/>
+        </field>
+          
+         <field property="timeZoneId" depends="required">
+        	<arg0 key="sysConfigForm.timeZone"/>
+        </field>
+        
+        <field property="stockExId" depends="required">
+        	<arg0 key="sysConfigForm.stockExId"/>
+        </field>
+        <field property="currencyId" depends="required">
+        	<arg0 key="sysConfigForm.currencyId"/>
+        </field>
+        <field property="countryId" depends="required">
+        	<arg0 key="sysConfigForm.countryId"/>
+        </field>
+          <field property="customerName" depends="required">
+             <arg0 key="sysConfigForm.customerName"/>
+             	
+         </field>
+         
+        
+              
+        
+         
+          
+         
+         
+          
+		 
+       
+         
+     
+	</form>
+    </formset>
+
+    <!-- An example formset for another locale
+    <formset language="fr">
+
+        <constant>
+            <constant-name>postalCode</constant-name>
+            <constant-value>^[0-9a-zA-Z]*$</constant-value>
+        </constant>
+
+   </formset>
+   -->
+
+</form-validation>

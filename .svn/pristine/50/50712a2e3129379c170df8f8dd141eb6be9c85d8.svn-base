@@ -1,0 +1,13 @@
+1000=SELECT * FROM user_details 
+1001=SELECT * FROM role_details
+1002=SELECT * FROM activity_details
+1003=SELECT * FROM role_activity_details
+1004=SELECT * FROM user_role_details
+1005=INSERT INTO user_details values('"+data.userid+"','"+data.password+"','"+data.firstname+"','"+data.lastname+",'"+data.middlename+"','"+data.gender+"','"+data.dob+"','"+data.country+"','"+data.designation+"','"+data.sequrityque+"','"+data.answer+"','"+data.id+"','"+data.address1+"','"+data.address2+"','"+data.city+"','"+data.zipcode+"','"+data.phone+"','"+data.mobile+"','"+data.attempts+"','"+data.language+"') 
+1006=INSERT INTO role_details values('rahul','yyyyy','jkghkkjhkj')
+1007=DELETE from role_details where roleid='yy'
+1008=update role_details set role='gewgewg' where roleid='yyyyy'
+1009=select count(*) from role_details
+1010=select count(*) from activity_details
+1011=select * from user_details where id='"+id+"' and password='"+pass+"'
+1012=select count(*) from user_details

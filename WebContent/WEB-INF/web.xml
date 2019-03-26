@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+  "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<web-app>
+
+
+	<!-- Standard Action Servlet Configuration (with debugging) -->
+
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+
+		<init-param>
+			<param-name>application</param-name>
+			<param-value>resources.application</param-value>
+		</init-param>
+		<init-param>
+			<param-name>data</param-name>
+			<param-value>resources.data</param-value>
+		</init-param>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>2</param-value>
+		</init-param>
+		<init-param>
+			<param-name>detail</param-name>
+			<param-value>2</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>DisplayChart</servlet-name>
+		<servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>initSevlet</servlet-name>
+		<servlet-class>app.InitSevlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>dwr-invoker</servlet-name>
+		<servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>MovingIndexTable</servlet-name>
+		<servlet-class>harrier.income.com.report.MovingIndexTableA</servlet-class>
+		<load-on-startup>4</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>local_default</servlet-name>
+		<servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>0</param-value>
+		</init-param>
+		<init-param>
+			<param-name>listings</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>log4jInit</servlet-name>
+		<servlet-class>com.harrier.initializeation.Log4jInit</servlet-class>
+		<init-param>
+			<param-name>log4jPropertiesFile</param-name>
+			<param-value>WEB-INF/classes/resources/log4j.properties</param-value>
+		</init-param>
+		<load-on-startup>6</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>ConnectInit</servlet-name>
+		<servlet-class>com.harrier.initializeation.ConnectInit</servlet-class>
+		<load-on-startup>7</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>log4jInit</servlet-name>
+		<url-pattern>/log4jInit</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>local_default</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>DisplayChart</servlet-name>
+		<url-pattern>/servlet/DisplayChart</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>dwr-invoker</servlet-name>
+		<url-pattern>/dwr/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- Action Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ConnectInit</servlet-name>
+		<url-pattern>/connectInit</url-pattern>
+	</servlet-mapping>
+
+
+
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+	<!-- The Usual Welcome File List -->
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<!-- Struts Tag Library Descriptors -->
+	<taglib>
+		<taglib-uri>/tags/struts-bean</taglib-uri>
+		<taglib-location>/WEB-INF/struts-bean.tld</taglib-location>
+	</taglib>
+
+	<taglib>
+		<taglib-uri>/tags/struts-html</taglib-uri>
+		<taglib-location>/WEB-INF/struts-html.tld</taglib-location>
+	</taglib>
+
+	<taglib>
+		<taglib-uri>/tags/struts-logic</taglib-uri>
+		<taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
+	</taglib>
+<resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>mypostgres</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref>
+
+</web-app>

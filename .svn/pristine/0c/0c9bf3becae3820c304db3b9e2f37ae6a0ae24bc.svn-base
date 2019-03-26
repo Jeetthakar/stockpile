@@ -1,0 +1,91 @@
+CREATE OR REPLACE FUNCTION public.define_and_compose_all_child_index(int4 )
+  RETURNS bool AS
+' 
+declare
+	p_index_id alias for "$1"; 
+	s_count int4;c_row class%rowtype; c_row1 class%rowtype;
+	r record;r1 record; flag boolean;level int;
+	new_index_id integer;
+	new_index_stock_id int4;
+	new_index_name varchar ;level_name1 varchar ;class_name1 varchar ;
+begin
+	s_count=0;
+	delete from dum_index_master;
+	delete from dum_index_composition;
+	insert into dum_index_master select * from index_master where index_id=p_index_id;
+	insert into dum_index_composition select * from index_composition where index_id=p_index_id;
+	select index_id into s_count from dum_index_master;	 
+	if s_count <=0 then
+	    return false;
+	end if;
+	for r1 in select class_id,class_name,level_name,description,c.level_id,parent_class_id,industry_classification_code from class c,classification_level cc, industry_classification_master icm,system_configuration sc  where  icm.industry_classification_id=sc.industry_classification_id and  c.level_id=cc.level_id and  cc.industry_classification_id=icm.industry_classification_id  order by cc.level_id,class_id
+	loop
+		s_count=0;level=0;new_index_name=\'\';level_name1=\'\';class_name1=\'\';		
+		delete from dumclass;
+		raise notice\'before if p_index_id%\',p_index_id;		 		
+		insert into dumclass select * from class where class_id=r1.class_id; 
+		select class_id into s_count from dumclass;	 
+		if s_count>0 then		
+			raise notice\'inside if%\',s_count; s_count=0;
+			select index_name into new_index_name from dum_index_master; 
+			select level_name into level_name1 from classification_level cl,dumclass dc where dc.level_id=cl.level_id;
+			select class_name into class_name1 from dumclass;
+			new_index_id=0;
+			select nextval(\'index_id\') into new_index_id;raise notice\'new_index_id %\',new_index_id;
+			raise notice\'before if p_index_id%\',p_index_id;
+			insert into index_master   select 
+				new_index_id, index_name || \'.\' || level_name || \'.\' || class_name,creation_date,is_active,base_date,
+				base_value,computation_interval,is_captured,captured_from,m_start_time,n_stop_time,o_ric,\'y\',p_index_id,
+				base_currency_id,index_type_id,alert_percentage,rejection_percentage,c.class_id ,growth_or_value,
+				calculate_settlement_value,isin,is_customized,next_day,im.industry_classification_id
+				from dum_index_master im,dumclass c,classification_level cl
+				where im.index_id=p_index_id and c.class_id=class_id and c.level_id=cl.level_id;	
+			select count(*) into  s_count from dumclass; 
+			select level_id into level from dumclass;	
+			flag=false; 
+			if s_count>0 then 
+				flag=true;
+			end if;        
+			while flag=true 
+			loop 
+				for c_row in select * from dumclass where level_id=level
+				loop 				
+					insert into dumclass select * from class where parent_class_id=c_row.class_id;					
+				end loop;
+				select level_id into level from dumclass  where level_id > level;
+				if not found then
+					flag=false;
+				end if;		
+			end loop; 
+			for r in select sm.stock_id
+				from 
+					dumclass c,
+					class_company cc,
+					company cmp,
+					stock_master sm,
+					dum_index_composition ic
+				where
+					ic.index_id=p_index_id and 
+					ic.stock_id=sm.stock_id and 
+					sm.company_id=cmp.company_id and 
+					cmp.company_id=cc.company_id and 
+					cc.class_id=c.class_id
+			loop 		
+				new_index_stock_id=0;
+				raise notice ''sm.stock_id is %'',r.stock_id;
+				select nextval(\'index_stock_id\') into new_index_stock_id;raise notice\'new_index_stock_id is%\',new_index_stock_id;
+				insert into index_composition  
+				       select new_index_stock_id,iwf,inclusion_date,new_index_id,stock_id,mcv
+				       from dum_index_composition where index_id=p_index_id and stock_id=r.stock_id;				
+				raise notice\'new_index_stock_id is%\',new_index_stock_id;
+			end loop; 
+		end if ;		
+	end loop;
+--	delete from dumclass;
+--	delete from dum_index_composition;
+--	delete from dum_index_master;	
+	return true; 
+end;	
+'
+  LANGUAGE 'plpgsql' VOLATILE;
+select * from public.define_and_compose_all_child_index(1)

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS ENTITY="StrutsProcess">
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="welcome"
+  LINK_SHAPE="-1,16" NAME="forward0" PATH="/Logon.do" SHAPE="448,17,0,0"
+  TARGET="action3" TITLE="welcome" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="logoff" LINK_SHAPE="-1,16"
+  NAME="forward1" PATH="/Logoff.do" SHAPE="448,129,0,0" TARGET="action0"
+  TITLE="logoff" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="logon" LINK_SHAPE="-1,16"
+  NAME="forward2" PATH="/Logon.do" SHAPE="32,241,0,0" TARGET="action3"
+  TITLE="logon" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Logoff" NAME="action0"
+  PATH="/Logoff" SHAPE="656,145,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/login1.jsp" SHAPE="-1,32"
+   TARGET="page18" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#LogonSubmit"
+  NAME="action1" PATH="/LogonSubmit" SHAPE="656,257,0,0"
+  TITLE="logonForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/DisplayIndexS.jsp?FromLogin=yes"
+   TARGET="page46" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Welcome" NAME="action2"
+  PATH="/Welcome" SHAPE="656,33,0,0" SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action2"
+   PATH="/pages/login1.jsp" SHAPE="-1,32" TARGET="page18"
+   TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Logon" NAME="action3"
+  PATH="/Logon" SHAPE="240,257,0,0" SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action3"
+   PATH="/pages/login1.jsp" SHAPE="-1,16" TARGET="page18"
+   TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page0"
+  PATH="/pages/Welcome.jsp" SHAPE="896,18,0,0" SUBTYPE="jsp"
+  TITLE="Welcome.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="logoff" SHORTCUT="yes" SUBTYPE="confirmed" TARGET="forward1"
+   TITLE="logoff" TYPE="link"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link1"
+   PATH="logon" SHORTCUT="yes" SUBTYPE="confirmed" TARGET="forward2"
+   TITLE="logon" TYPE="link"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link2"
+   PATH="changepass" SHAPE="-1,16" SUBTYPE="confirmed" TARGET="page7"
+   TITLE="changepass" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page1"
+  PATH="/pages/Logon.jsp" SHAPE="448,242,0,0" SUBTYPE="jsp"
+  TITLE="Logon.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/LogonSubmit.do" SHAPE="-1,16" SUBTYPE="confirmed"
+   TARGET="action1" TITLE="/LogonSubmit.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#NewusersSubmit"
+  NAME="action4" PATH="/NewusersSubmit" SHAPE="656,369,0,0"
+  TITLE="newusersForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="register"
+   NAME="forward1" PATH="/pages/accountpage.jsp" SHAPE="-1,16"
+   TARGET="page5" TITLE="register" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page3"
+  PATH="/pages/newusers.jsp" SHAPE="448,354,0,0" SUBTYPE="jsp"
+  TITLE="newusers.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/NewusersSubmit.do" SHAPE="-1,16" SUBTYPE="confirmed"
+   TARGET="action4" TITLE="NewusersSubmit.do" TYPE="link"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link1"
+   PATH="logon" SHORTCUT="yes" SUBTYPE="confirmed" TARGET="forward2"
+   TITLE="logon" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Newusers" NAME="action5"
+  PATH="/Newusers" SHAPE="240,369,0,0" SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action5"
+   PATH="/pages/newusers.jsp" SHAPE="-1,16" TARGET="page3"
+   TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="newusers"
+  LINK_SHAPE="-1,16" NAME="forward3" PATH="/Newusers.do"
+  SHAPE="32,353,0,0" TARGET="action5" TITLE="newusers" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page5"
+  PATH="/pages/accountpage.jsp" SHAPE="864,354,0,0" SUBTYPE="jsp"
+  TITLE="accountpage.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link1"
+   PATH="logon" SHORTCUT="yes" SUBTYPE="confirmed" TARGET="forward2"
+   TITLE="logon" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Forgot" NAME="action6"
+  PATH="/Forgot" SHAPE="32,465,0,0" SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action6"
+   PATH="/pages/forgot.jsp" SHAPE="-1,16" TARGET="page4"
+   TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page4"
+  PATH="/pages/forgot.jsp" SHAPE="240,482,0,0" SUBTYPE="jsp"
+  TITLE="forgot.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/ForgotSubmit.do" SHAPE="-1,16" SUBTYPE="confirmed"
+   TARGET="action7" TITLE="/ForgotSubmit.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#ForgotSubmit"
+  NAME="action7" PATH="/ForgotSubmit" SHAPE="448,465,0,0"
+  TITLE="forgotForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="forgot"
+   NAME="forward0" PATH="/pages/question.jsp" SHAPE="-1,16"
+   TARGET="page6" TITLE="forgot" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page6"
+  PATH="/pages/question.jsp" SHAPE="656,482,0,0" SUBTYPE="jsp"
+  TITLE="question.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#QuestionSubmit"
+  NAME="action8" PATH="/QuestionSubmit" SHAPE="32,577,0,0"
+  TITLE="questionForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="done"
+   NAME="forward1" PATH="/pages/success.jsp" SHAPE="-1,16"
+   TARGET="page2" TITLE="done" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page2"
+  PATH="/pages/success.jsp" SHAPE="240,594,0,0" SUBTYPE="jsp"
+  TITLE="success.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="logon" SHORTCUT="yes" SUBTYPE="confirmed" TARGET="forward2"
+   TITLE="logon" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page7" PATH="changepass"
+  SHAPE="1104,34,0,0" SUBTYPE="tile" TITLE="changepass" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="changepass"
+  LINK_SHAPE="-1,16" NAME="forward5" PATH="/Changepass.do"
+  SHAPE="32,689,0,0" TARGET="action9" TITLE="changepass" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Changepass"
+  NAME="action9" PATH="/Changepass" SHAPE="240,705,0,0"
+  SUBTYPE="unknown" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action9"
+   PATH="/pages/changepass.jsp" SHAPE="-1,16" TARGET="page8"
+   TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page8"
+  PATH="/pages/changepass.jsp" SHAPE="448,690,0,0" SUBTYPE="jsp"
+  TITLE="changepass.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/ChangepassSubmit.do" SHAPE="-1,16" SUBTYPE="confirmed"
+   TARGET="action10" TITLE="ChangepassSubmit.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#ChangepassSubmit"
+  NAME="action10" PATH="/ChangepassSubmit" SHAPE="656,705,0,0"
+  TITLE="changepassForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="changed"
+   NAME="forward0" PATH="/pages/accountpage.jsp" TARGET="page5"
+   TITLE="changed" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page9"
+  PATH="/pages/changedpass.jsp" SHAPE="864,705,0,0" SUBTYPE="jsp"
+  TITLE="changedpass.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page11"
+  PATH="/pages/indexcompos2.htm" SHAPE="1072,257,0,0" SUBTYPE="html"
+  TITLE="indexcompos2.htm" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page10"
+  PATH="/pages/indexcompos21.htm" SHAPE="864,257,0,0" SUBTYPE="html"
+  TITLE="indexcompos21.htm" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page12"
+  PATH="/pages/coloratuion.htm" SHAPE="864,481,0,0" SUBTYPE="html"
+  TITLE="coloratuion.htm" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page13"
+  PATH="/pages/indexcompos2.html" SHAPE="1072,369,0,0" SUBTYPE="html"
+  TITLE="indexcompos2.html" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#NewIndexAction"
+  NAME="action11" PATH="/NewIndexAction" SHAPE="32,689,0,0"
+  TITLE="newIndexForm" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page15"
+  PATH="/pages/DisplayIndexes.jsp" SHAPE="864,593,0,0" SUBTYPE="jsp"
+  TITLE="DisplayIndexes.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page14"
+  PATH="/pages/IndexDisplay.jsp" SHAPE="1280,257,0,0" SUBTYPE="jsp"
+  TITLE="IndexDisplay.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="index" SUBTYPE="confirmed" TARGET="page16" TITLE="index" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page16" PATH="index"
+  SHAPE="1488,257,0,0" SUBTYPE="tile" TITLE="index" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page17"
+  PATH="/pages/NCorporateAction.jsp" SHAPE="448,810,56,46" SUBTYPE="jsp"
+  TITLE="NCorporateAction.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/nCorp_Action.do" SUBTYPE="confirmed" TARGET="action36"
+   TITLE="/nCorp_Action.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page18"
+  PATH="/pages/login1.jsp" SHAPE="864,145,0,0" SUBTYPE="jsp"
+  TITLE="login1.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/LogonSubmit.do" SUBTYPE="confirmed" TARGET="action1"
+   TITLE="/LogonSubmit.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#stockMasterAction"
+  NAME="action13" PATH="/stockMasterAction" SHAPE="32,801,0,0"
+  TITLE="stockMasterForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/stockmaster2.jsp"
+   TARGET="page47" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="index" NAME="forward4"
+  PATH="/pages/DisplayIndexes1.jsp" SHAPE="688,593,0,0" TARGET="page28"
+  TITLE="index" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#capturedIndexAction"
+  NAME="action14" PATH="/capturedIndexAction" SHAPE="32,913,0,0"
+  TITLE="capturedIndexForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/AddCapturedIndex.jsp"
+   TARGET="page48" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#ratcode" NAME="action15"
+  PATH="/ratcode" SHAPE="224,41,115,43" TITLE="RatingCodes" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward1" PATH="/pages/masters/RatingCodes.jsp" TARGET="page49"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#idtcode" NAME="action16"
+  PATH="/idtcode" SHAPE="32,153,132,43" TITLE="IdentifierCodes" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/IdentifierCodes.jsp"
+   SHAPE="45,-72,118" TARGET="page50" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#zone" NAME="action17"
+  PATH="/zone" SHAPE="32,241,0,0" TITLE="TimeZones" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/TimeZone.jsp" TARGET="page51"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#ind" NAME="action18"
+  PATH="/ind" SHAPE="32,1137,0,0" TITLE="IndexType" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/IndexType.jsp" TARGET="page52"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#country" NAME="action20"
+  PATH="/country" SHAPE="32,1249,0,0" TITLE="countries" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/countries.jsp" TARGET="page53"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#currency" NAME="action19"
+  PATH="/currency" SHAPE="32,1361,0,0" TITLE="AddCurrency" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/AddCurrency.jsp" TARGET="page54"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#type" NAME="action21"
+  PATH="/type" SHAPE="32,1473,0,0" TITLE="stocktype" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/StockType.jsp" TARGET="page55"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCA_Action1"
+  NAME="action22" PATH="/indexCA_Action1" SHAPE="32,1921,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpDairy_Action"
+  NAME="action23" PATH="/corpDairy_Action" SHAPE="240,1937,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#addCompanyAction"
+  NAME="action24" PATH="/addCompanyAction" SHAPE="32,1025,0,0"
+  TITLE="AddCompanyForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/AddNewCompany.jsp"
+   TARGET="page56" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#frto" NAME="action25"
+  PATH="/frto" SHAPE="240,1601,0,0" TITLE="FrtoCurrency" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/frtocurrency.jsp"
+   TARGET="page57" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#addStockExchAction"
+  NAME="action26" PATH="/addStockExchAction" SHAPE="32,1585,0,0"
+  TITLE="AddStockExchForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/AddStockExchange.jsp"
+   TARGET="page58" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#cont" NAME="action27"
+  PATH="/cont" SHAPE="240,1825,0,0" TITLE="Continents" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/Continents.jsp" TARGET="page21"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#pages#DisplayIndexes1.jsp" NAME="action28"
+  PATH="/pages/DisplayIndexes1.jsp" SHAPE="928,801,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action28"
+   PATH="/pages/DisplayIndexes1.jsp" TARGET="page28" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCA_Action"
+  NAME="action29" PATH="/indexCA_Action" SHAPE="448,1921,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page28"
+  PATH="/pages/DisplayIndexes1.jsp" SHAPE="1072,481,0,0" SUBTYPE="jsp"
+  TITLE="DisplayIndexes1.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="reset" NAME="forward8"
+  PATH="/pages/sysConfigView.jsp" SHAPE="32,2257,0,0" TARGET="page36"
+  TITLE="reset" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="success" NAME="forward10"
+  PATH="/pages/sysConfigView.jsp" SHAPE="32,2369,0,0" TARGET="page36"
+  TITLE="success" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpDairy_Action4"
+  NAME="action30" PATH="/corpDairy_Action4" SHAPE="32,3265,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#index-action"
+  NAME="action32" PATH="/index-action" SHAPE="240,3281,0,0"
+  TITLE="indexUpdateBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpDairy_Action3"
+  NAME="action33" PATH="/corpDairy_Action3" SHAPE="448,3265,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#nCorp_Action1"
+  NAME="action34" PATH="/nCorp_Action1" SHAPE="656,3281,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#email" NAME="action35"
+  PATH="/email" SHAPE="32,2817,0,0" TITLE="EmailReportForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/EmailConfirm.jsp"
+   TARGET="page59" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#nCorp_Action"
+  NAME="action36" PATH="/nCorp_Action" SHAPE="656,929,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpDairy_Action2"
+  NAME="action37" PATH="/corpDairy_Action2" SHAPE="864,3265,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#SysConfig-action"
+  NAME="action38" PATH="/SysConfig-action" SHAPE="32,2481,0,0"
+  TITLE="sysConfigBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/sysConfigView.jsp" TARGET="page36"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCalculatorAction"
+  NAME="action39" PATH="/indexCalculatorAction" SHAPE="32,2929,0,0"
+  TITLE="indexCalculatorBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/IndexCalculator.jsp"
+   TARGET="page60" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#roleActivities-action"
+  NAME="action40" PATH="/roleActivities-action" SHAPE="1072,3281,0,0"
+  TITLE="roleActivitiesBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Roles-action"
+  NAME="action41" PATH="/Roles-action" SHAPE="240,3057,0,0"
+  TITLE="RolesBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/rolesView.jsp" TARGET="page61"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#holi" NAME="action42"
+  PATH="/holi" SHAPE="240,3169,0,0" TITLE="ExchangeHolidaysForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/ExchangeHolidays.jsp"
+   TARGET="page62" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Activity-action"
+  NAME="action43" PATH="/Activity-action" SHAPE="32,3377,0,0"
+  TITLE="ActivityForm" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCom_Action"
+  NAME="action44" PATH="/indexCom_Action" SHAPE="240,3393,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpDairy_Action1"
+  NAME="action45" PATH="/corpDairy_Action1" SHAPE="448,3377,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page34"
+  PATH="/pages/activityUpdated.jsp" SHAPE="240,2050,0,0" SUBTYPE="jsp"
+  TITLE="activityUpdated.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page35"
+  PATH="/pages/activityAdded.jsp" SHAPE="240,2162,0,0" SUBTYPE="jsp"
+  TITLE="activityAdded.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page36"
+  PATH="/pages/sysConfigView.jsp" SHAPE="272,2274,0,0" SUBTYPE="jsp"
+  TITLE="sysConfigView.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/SysConfig-action.do" SUBTYPE="confirmed" TARGET="action38"
+   TITLE="/SysConfig-action.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page37"
+  PATH="/pages/roleUpdated.jsp" SHAPE="240,2610,0,0" SUBTYPE="jsp"
+  TITLE="roleUpdated.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page39"
+  PATH="/pages/EmailConfirm.jsp" SHAPE="240,2834,0,0" SUBTYPE="jsp"
+  TITLE="EmailConfirm.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page40"
+  PATH="/pages/IndexCalculator.jsp" SHAPE="240,2946,0,0" SUBTYPE="jsp"
+  TITLE="IndexCalculator.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexCalculatorAction.do" SUBTYPE="confirmed"
+   TARGET="action39" TITLE="/indexCalculatorAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page43"
+  PATH="/pages/PortpolioTisCalculator.jsp" SHAPE="256,3506,0,0"
+  SUBTYPE="jsp" TITLE="PortpolioTisCalculator.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/portpolioTisCalculatorAction.do" SUBTYPE="confirmed"
+   TARGET="action47" TITLE="/portpolioTisCalculatorAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#portpolioTisCalculatorAction" NAME="action47"
+  PATH="/portpolioTisCalculatorAction" SHAPE="32,3489,0,0"
+  TITLE="indexCalculatorBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/PortpolioTisCalculator.jsp"
+   TARGET="page63" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Proceed" NAME="action46"
+  PATH="/Proceed" SHAPE="32,3825,0,0" TITLE="baseValues" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#compliance"
+  NAME="action48" PATH="/compliance" SHAPE="32,3601,0,0"
+  TITLE="indComplianceMasterForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/IndComplianceMaster.jsp"
+   TARGET="page22" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#corpaction"
+  NAME="action49" PATH="/corpaction" SHAPE="240,3729,0,0"
+  TITLE="CorporateActionMaster" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/CorporateActionMaster.jsp"
+   TARGET="page64" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#classificationLevel-action" NAME="action50"
+  PATH="/classificationLevel-action" SHAPE="240,3841,0,0"
+  TITLE="classificationLevelBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#classes-action"
+  NAME="action51" PATH="/classes-action" SHAPE="448,3825,0,0"
+  TITLE="classesBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#nCorp_Action2"
+  NAME="action52" PATH="/nCorp_Action2" SHAPE="656,3841,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#industryClassification-action" NAME="action53"
+  PATH="/industryClassification-action" SHAPE="864,3825,0,0"
+  TITLE="industryClassificationBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#ComputeIndex"
+  NAME="action54" PATH="/ComputeIndex" SHAPE="1072,3841,0,0"
+  TITLE="computeIndex" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#Compute" NAME="action55"
+  PATH="/Compute" SHAPE="32,3937,0,0" TITLE="indexComposition" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="callStockList"
+  NAME="forward6" PATH="/StockList.do?compute=yes" SHAPE="32,3825,0,0"
+  TARGET="action79" TITLE="callStockList" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexPerformance"
+  NAME="action56" PATH="/indexPerformance" SHAPE="240,4065,0,0"
+  TITLE="IndexPerformanceBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/IndexPerformanceS.jsp"
+   TARGET="page65" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#capChangeUniv"
+  NAME="action57" PATH="/capChangeUniv" SHAPE="32,5841,0,0"
+  TITLE="capChangeUnivBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#IndexReturnsVolatilityAction" NAME="action58"
+  PATH="/IndexReturnsVolatilityAction" SHAPE="240,4177,0,0"
+  TITLE="IndexReturnsVolatilityBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success111"
+   NAME="forward0" PATH="/pages/reports/IndexReturns_VolatilityS.jsp"
+   TARGET="page66" TITLE="success111" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#DisplayIndex"
+  NAME="action59" PATH="/DisplayIndex" SHAPE="1552,369,0,0"
+  TITLE="DisplayIndexBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/Stockpile/pages/reports/DisplayIndexS.jsp"
+   TARGET="page67" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#IndexCompose"
+  NAME="action60" PATH="/IndexCompose" SHAPE="32,4273,0,0"
+  TITLE="IndexComposeBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/Stockpile/pages/reports/IndexComposeS.jsp"
+   TARGET="page68" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#datFileUpload"
+  NAME="action61" PATH="/datFileUpload" SHAPE="240,5857,0,0"
+  TITLE="DatFileUploadBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#IndexCurrencyWise"
+  NAME="action62" PATH="/IndexCurrencyWise" SHAPE="32,4385,0,0"
+  TITLE="IndexCurrencyWiseBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0"
+   PATH="/Stockpile/pages/reports/PortpolioTisCalculator.jsp"
+   TARGET="page69" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCompare"
+  NAME="action63" PATH="/indexCompare" SHAPE="240,4513,0,0"
+  TITLE="IndexCompareBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/IndexCompare1S.jsp"
+   TARGET="page70" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#StockContribution"
+  NAME="action64" PATH="/StockContribution" SHAPE="32,4609,0,0"
+  TITLE="StockContributionBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0"
+   PATH="/Stockpile/pages/reports/StockContriToIndexChangeS.jsp"
+   TARGET="page71" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#IndexWiseWeight"
+  NAME="action65" PATH="/IndexWiseWeight" SHAPE="32,4721,0,0"
+  TITLE="IndexWiseWeightBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/Stockpile/pages/reports/IndWiseWeightS.jsp"
+   TARGET="page72" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#index-detail"
+  NAME="action66" PATH="/index-detail" SHAPE="448,5841,0,0"
+  TITLE="indexDetailBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#GICSFileUpload"
+  NAME="action67" PATH="/GICSFileUpload" SHAPE="240,4849,0,0"
+  TITLE="GICSFileUploadBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/GICSFileDialog.jsp" TARGET="page73"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#stockDetails"
+  NAME="action68" PATH="/stockDetails" SHAPE="656,5857,0,0"
+  TITLE="stockDetailsBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#MovingIndexValue"
+  NAME="action69" PATH="/MovingIndexValue" SHAPE="240,4961,0,0"
+  TITLE="MovingIndexValueBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/MoveIndexValueS.jsp"
+   TARGET="page74" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCom_Action1"
+  NAME="action70" PATH="/indexCom_Action1" SHAPE="864,5841,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#LatestIndex"
+  NAME="action71" PATH="/LatestIndex" SHAPE="240,5073,0,0"
+  TITLE="LatestIndexBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/LatestIndexDivisors.jsp"
+   TARGET="page75" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#TradedVolumeInd_exchS"
+  NAME="action72" PATH="/TradedVolumeInd_exchS" SHAPE="1072,5857,0,0"
+  TITLE="TradedVolumeBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexDivisorAction"
+  NAME="action73" PATH="/indexDivisorAction" SHAPE="240,5185,0,0"
+  TITLE="IndexDivisorBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success123"
+   NAME="forward0" PATH="/pages/reports/Index_DivisorS.jsp"
+   TARGET="page76" TITLE="success123" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#inactiveStockList"
+  NAME="action74" PATH="/inactiveStockList" SHAPE="240,5297,0,0"
+  TITLE="InactiveStockListBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/InactiveStockListS.jsp"
+   TARGET="page77" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#stockMergerAction"
+  NAME="action75" PATH="/stockMergerAction" SHAPE="32,5953,0,0"
+  TITLE="stockMerger" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#company-action"
+  NAME="action76" PATH="/company-action" SHAPE="240,5969,0,0"
+  TITLE="companyBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#companyWiseWeightage"
+  NAME="action77" PATH="/companyWiseWeightage" SHAPE="240,5409,0,0"
+  TITLE="CompanyWiseWeightageBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/CompanyWiseWeightageS.jsp"
+   TARGET="page78" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#marketStatus"
+  NAME="action78" PATH="/marketStatus" SHAPE="240,5521,0,0"
+  TITLE="marketStatusBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/MarketStatusDateWise1.jsp"
+   TARGET="page79" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#StockList"
+  NAME="action79" PATH="/StockList" SHAPE="240,3953,0,0"
+  TITLE="stockListBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#stock-detailFD"
+  NAME="action80" PATH="/stock-detailFD" SHAPE="240,5633,0,0"
+  TITLE="stockDetailFDBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/StockDetailFromDateS.jsp"
+   TARGET="page80" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexpe_pb"
+  NAME="action81" PATH="/indexpe_pb" SHAPE="240,5745,0,0"
+  TITLE="Indexpe_pbBean" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/reports/Indexpe_pbS.jsp" TARGET="page81"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#StockDivident"
+  NAME="action82" PATH="/StockDivident" SHAPE="448,5953,0,0"
+  TITLE="StockDividentBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#userRoles-action"
+  NAME="action83" PATH="/userRoles-action" SHAPE="656,5969,0,0"
+  TITLE="userRolesBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#indexCA_Action2"
+  NAME="action84" PATH="/indexCA_Action2" SHAPE="864,5953,0,0"
+  TITLE="corporate" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#FileDownLoad"
+  NAME="action85" PATH="/FileDownLoad" SHAPE="1072,5969,0,0"
+  TITLE="FileDownLoadBean" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page46"
+  PATH="/pages/reports/DisplayIndexS.jsp" SHAPE="1280,369,0,0"
+  SUBTYPE="jsp" TITLE="DisplayIndexS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/DisplayIndex.do" SUBTYPE="confirmed" TARGET="action59"
+   TITLE="/DisplayIndex.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page47"
+  PATH="/pages/masters/stockmaster2.jsp" SHAPE="448,1025,0,0"
+  SUBTYPE="jsp" TITLE="stockmaster2.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/stockMasterAction.do" SUBTYPE="confirmed" TARGET="action13"
+   TITLE="/stockMasterAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page48"
+  PATH="/pages/masters/AddCapturedIndex.jsp" SHAPE="656,1025,0,0"
+  SUBTYPE="jsp" TITLE="AddCapturedIndex.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/capturedIndexAction.do" SUBTYPE="confirmed" TARGET="action14"
+   TITLE="/capturedIndexAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page49"
+  PATH="/pages/masters/RatingCodes.jsp" SHAPE="1056,153,0,0"
+  SUBTYPE="jsp" TITLE="RatingCodes.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/ratcode.do" SUBTYPE="confirmed" TARGET="action15"
+   TITLE="/ratcode.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page50"
+  PATH="/pages/masters/IdentifierCodes.jsp" SHAPE="448,601,0,0"
+  SUBTYPE="jsp" TITLE="IdentifierCodes.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/idtcode.do" SUBTYPE="confirmed" TARGET="action16"
+   TITLE="/idtcode.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page51"
+  PATH="/pages/masters/TimeZone.jsp" SHAPE="1072,577,0,0" SUBTYPE="jsp"
+  TITLE="TimeZone.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/zone.do" SUBTYPE="confirmed" TARGET="action17"
+   TITLE="/zone.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page52"
+  PATH="/pages/masters/IndexType.jsp" SHAPE="448,1249,0,0" SUBTYPE="jsp"
+  TITLE="IndexType.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/ind.do" SUBTYPE="confirmed" TARGET="action18" TITLE="/ind.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page53"
+  PATH="/pages/masters/countries.jsp" SHAPE="448,1361,0,0" SUBTYPE="jsp"
+  TITLE="countries.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/country.do" SUBTYPE="confirmed" TARGET="action20"
+   TITLE="/country.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page54"
+  PATH="/pages/masters/AddCurrency.jsp" SHAPE="448,1473,0,0"
+  SUBTYPE="jsp" TITLE="AddCurrency.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/currency.do" SUBTYPE="confirmed" TARGET="action19"
+   TITLE="/currency.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page55"
+  PATH="/pages/masters/StockType.jsp" SHAPE="448,1585,0,0" SUBTYPE="jsp"
+  TITLE="StockType.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/type.do" SUBTYPE="confirmed" TARGET="action21"
+   TITLE="/type.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page56"
+  PATH="/pages/masters/AddNewCompany.jsp" SHAPE="656,1137,0,0"
+  SUBTYPE="jsp" TITLE="AddNewCompany.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/addCompanyAction.do" SUBTYPE="confirmed" TARGET="action24"
+   TITLE="/addCompanyAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page57"
+  PATH="/pages/masters/frtocurrency.jsp" SHAPE="448,1713,0,0"
+  SUBTYPE="jsp" TITLE="frtocurrency.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/frto.do" SUBTYPE="confirmed" TARGET="action25"
+   TITLE="/frto.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page58"
+  PATH="/pages/masters/AddStockExchange.jsp" SHAPE="656,1585,0,0"
+  SUBTYPE="jsp" TITLE="AddStockExchange.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/addStockExchAction.do" SUBTYPE="confirmed" TARGET="action26"
+   TITLE="/addStockExchAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page59"
+  PATH="/pages/reports/EmailConfirm.jsp" SHAPE="448,2817,0,0"
+  SUBTYPE="jsp" TITLE="EmailConfirm.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page60"
+  PATH="/pages/reports/IndexCalculator.jsp" SHAPE="448,3041,0,0"
+  SUBTYPE="jsp" TITLE="IndexCalculator.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexCalculatorAction.do" SUBTYPE="confirmed"
+   TARGET="action39" TITLE="/indexCalculatorAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page61"
+  PATH="/pages/masters/rolesView.jsp" SHAPE="448,3169,0,0" SUBTYPE="jsp"
+  TITLE="rolesView.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/Roles-action.do" SUBTYPE="confirmed" TARGET="action41"
+   TITLE="/Roles-action.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page62"
+  PATH="/pages/masters/ExchangeHolidays.jsp" SHAPE="656,3169,0,0"
+  SUBTYPE="jsp" TITLE="ExchangeHolidays.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/holi.do" SUBTYPE="confirmed" TARGET="action42"
+   TITLE="/holi.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page63"
+  PATH="/pages/reports/PortpolioTisCalculator.jsp" SHAPE="448,3601,0,0"
+  SUBTYPE="jsp" TITLE="PortpolioTisCalculator.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/portpolioTisCalculatorAction.do" SUBTYPE="confirmed"
+   TARGET="action47" TITLE="/portpolioTisCalculatorAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page64"
+  PATH="/pages/masters/CorporateActionMaster.jsp" SHAPE="656,3729,0,0"
+  SUBTYPE="jsp" TITLE="CorporateActionMaster.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/corpaction.do" SUBTYPE="confirmed" TARGET="action49"
+   TITLE="/corpaction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page65"
+  PATH="/pages/reports/IndexPerformanceS.jsp" SHAPE="32,4050,0,0"
+  SUBTYPE="jsp" TITLE="IndexPerformanceS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexPerformance.do" SUBTYPE="confirmed" TARGET="action56"
+   TITLE="/indexPerformance.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page66"
+  PATH="/pages/reports/IndexReturns_VolatilityS.jsp" SHAPE="32,4162,0,0"
+  SUBTYPE="jsp" TITLE="IndexReturns_VolatilityS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/IndexReturnsVolatilityAction.do" SUBTYPE="confirmed"
+   TARGET="action58" TITLE="/IndexReturnsVolatilityAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page67"
+  PATH="/Stockpile/pages/reports/DisplayIndexS.jsp" SHAPE="1760,354,0,0"
+  SUBTYPE="jsp" TITLE="DisplayIndexS.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page68"
+  PATH="/Stockpile/pages/reports/IndexComposeS.jsp" SHAPE="240,4290,0,0"
+  SUBTYPE="jsp" TITLE="IndexComposeS.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page69"
+  PATH="/Stockpile/pages/reports/PortpolioTisCalculator.jsp"
+  SHAPE="240,4402,0,0" SUBTYPE="jsp" TITLE="PortpolioTisCalculator.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page70"
+  PATH="/pages/reports/IndexCompare1S.jsp" SHAPE="32,4498,0,0"
+  SUBTYPE="jsp" TITLE="IndexCompare1S.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexCompare.do" SUBTYPE="confirmed" TARGET="action63"
+   TITLE="/indexCompare.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page71"
+  PATH="/Stockpile/pages/reports/StockContriToIndexChangeS.jsp"
+  SHAPE="240,4626,0,0" SUBTYPE="jsp"
+  TITLE="StockContriToIndexChangeS.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page72"
+  PATH="/Stockpile/pages/reports/IndWiseWeightS.jsp"
+  SHAPE="240,4738,0,0" SUBTYPE="jsp" TITLE="IndWiseWeightS.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page73"
+  PATH="/pages/GICSFileDialog.jsp" SHAPE="32,4834,0,0" SUBTYPE="jsp"
+  TITLE="GICSFileDialog.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/GICSFileUpload.do" SUBTYPE="confirmed" TARGET="action67"
+   TITLE="/GICSFileUpload.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page74"
+  PATH="/pages/reports/MoveIndexValueS.jsp" SHAPE="32,4946,0,0"
+  SUBTYPE="jsp" TITLE="MoveIndexValueS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/MovingIndexValue.do" SUBTYPE="confirmed" TARGET="action69"
+   TITLE="/MovingIndexValue.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page75"
+  PATH="/pages/reports/LatestIndexDivisors.jsp" SHAPE="32,5058,0,0"
+  SUBTYPE="jsp" TITLE="LatestIndexDivisors.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/LatestIndex.do" SUBTYPE="confirmed" TARGET="action71"
+   TITLE="/LatestIndex.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page76"
+  PATH="/pages/reports/Index_DivisorS.jsp" SHAPE="32,5170,0,0"
+  SUBTYPE="jsp" TITLE="Index_DivisorS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexDivisorAction.do" SUBTYPE="confirmed" TARGET="action73"
+   TITLE="/indexDivisorAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page77"
+  PATH="/pages/reports/InactiveStockListS.jsp" SHAPE="32,5282,0,0"
+  SUBTYPE="jsp" TITLE="InactiveStockListS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/inactiveStockList.do" SUBTYPE="confirmed" TARGET="action74"
+   TITLE="/inactiveStockList.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page78"
+  PATH="/pages/reports/CompanyWiseWeightageS.jsp" SHAPE="32,5394,0,0"
+  SUBTYPE="jsp" TITLE="CompanyWiseWeightageS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/companyWiseWeightage.do" SUBTYPE="confirmed" TARGET="action77"
+   TITLE="/companyWiseWeightage.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page79"
+  PATH="/pages/MarketStatusDateWise1.jsp" SHAPE="32,5506,0,0"
+  SUBTYPE="jsp" TITLE="MarketStatusDateWise1.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/marketStatus.do" SUBTYPE="confirmed" TARGET="action78"
+   TITLE="/marketStatus.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page80"
+  PATH="/pages/reports/StockDetailFromDateS.jsp" SHAPE="32,5618,0,0"
+  SUBTYPE="jsp" TITLE="StockDetailFromDateS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/stock-detailFD.do" SUBTYPE="confirmed" TARGET="action80"
+   TITLE="/stock-detailFD.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page81"
+  PATH="/pages/reports/Indexpe_pbS.jsp" SHAPE="32,5730,0,0"
+  SUBTYPE="jsp" TITLE="Indexpe_pbS.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/indexpe_pb.do" SUBTYPE="confirmed" TARGET="action81"
+   TITLE="/indexpe_pb.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#commodityAction"
+  NAME="action12" PATH="/commodityAction" SHAPE="32,5841,0,0"
+  TITLE="stockmasterbondscommodity" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/commodities.jsp" TARGET="page19"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page19"
+  PATH="/pages/masters/commodities.jsp" SHAPE="240,6082,0,0"
+  SUBTYPE="jsp" TITLE="commodities.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/commodityAction.do" SUBTYPE="confirmed" TARGET="action12"
+   TITLE="/commodityAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page20"
+  PATH="/pages/masters/StockMasterBonds.jsp" SHAPE="240,6177,0,0"
+  SUBTYPE="jsp" TITLE="StockMasterBonds.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/bondsAction.do" SUBTYPE="confirmed" TARGET="action86"
+   TITLE="/bondsAction.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#bondsAction"
+  NAME="action86" PATH="/bondsAction" SHAPE="32,6177,0,0"
+  TITLE="stockmasterbondscommodity" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/pages/masters/StockMasterBonds.jsp"
+   TARGET="page20" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#allReports"
+  NAME="action31" PATH="/allReports" SHAPE="32,6289,0,0" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page21"
+  PATH="/pages/masters/Continents.jsp" SHAPE="656,1825,0,0"
+  SUBTYPE="jsp" TITLE="Continents.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/cont.do" SUBTYPE="confirmed" TARGET="action27"
+   TITLE="/cont.do" TYPE="link"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page22"
+  PATH="/pages/masters/IndComplianceMaster.jsp" SHAPE="448,3713,0,0"
+  SUBTYPE="jsp" TITLE="IndComplianceMaster.jsp" TYPE="page">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="link0"
+   PATH="/compliance.do" SUBTYPE="confirmed" TARGET="action48"
+   TITLE="/compliance.do" TYPE="link"/>
+ </PROCESS-ITEM>
+</PROCESS>
