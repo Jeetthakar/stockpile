@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/dwr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-net-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts-legacy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/iText.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/XPAAJ.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xmlParserAPIs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/gnujaxp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-digester.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-validator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/classes12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/dom3-xml-apis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/sftp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/struts.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/yguard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/javadbf-0[1].4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-collections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xalan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jakarta-oro.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/dom3-xercesImpl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/itext-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jcommon-1.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/postgresql.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jfreechart-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/xmluse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-beanutils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

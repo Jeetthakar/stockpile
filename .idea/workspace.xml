@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="169b4620-902b-4b73-9c30-4ebe7e7dfa32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/classes/CoolMenus/CoolMenusSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Income.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/JavaSource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/AcessControl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ActionCorp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ActionForwardParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ActionMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/AuditTrail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/BackTestCompute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/BackTestIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/BackTestIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/BaseValuesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/BaseValuesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CStockPriceComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CStockPriceComponentsfi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CapturedIndexCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Changecurr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ChangepassAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ChangepassForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ComputeIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ComputeIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CorpDairy_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Corporate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CorporateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CorporateActionFormBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CrExchangeRateFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/CrExchangeRateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/DatFileUploadAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/DatFileUploadForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Data_userdetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/DateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/DynamicTableAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/DynamicTableForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/EPSDetailForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/EmailReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/EmailReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/EpsReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FillTables$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FillTables$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FillTables$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FillTables$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FillTables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FinanceResultAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FinanceResultForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FinancialDetailForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/FinancialDetailReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ForgotAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ForgotForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/GICSFileUploadAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/GICSFileUploadForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/GICSForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/GICSReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IncomeLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCA_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCalculatorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCalculatorCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCalculatorForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCom_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCompositionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCompositionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexCurrencyWiseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexOHLC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexOHLCAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/IndexOHLCForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/InitSevlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ListTypeClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ListTypeClass$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ListTypeClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ListTypeClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/LogoffAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/LogonAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/LogonForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/MakeExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/MyFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NCorp_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NewIndexDefineAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NewIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NewusersAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NewusersForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NseIndexDetailForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NseIndexDetailReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/NyseNewStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Open16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PEDailyReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PEDetailForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PatAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PatAction1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PatForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PatForm1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PopFileDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PopFileDialogNewStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PopFileDialogNewStockDat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/PortpolioTisCalculatorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/QueryClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/QueryClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/ReadIndexOHLC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/SendMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/StockDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/StockDetailsCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/StockMergerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/StockMergerForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/StockResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/TestOverload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Testdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdateCorp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdateDatForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdateSeriesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdateSeriesReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/Updatef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdatefDbform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UpdatefForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UserDirectory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/UserDirectoryException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/l4j3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/app/stocklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/BHAVThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/Bhav.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/BhavThrDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/Client4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/ClientBhav.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/ClientMess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/ClientSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestBhav$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestBhav$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestBhav.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestMess$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestMess$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestMess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestSec$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestSec$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/FrameTestSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/IndThrDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/Ind_FtpReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MKTThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/Market.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MarketReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MessThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MessageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MessageReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MessthrDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MktThrDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MyDom$MyErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/MyDom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/ReadSecurityFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/SECThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/SecThrDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/Security.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/SecurityFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UploadBhavcopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UploadInd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UploadMessageFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UploadMkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UploadSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UplodeBhav.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UplodeMasterSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/ftp/UplodeSec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/initializeation/ConnectInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/harrier/initializeation/Log4jInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile$ExitListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/InstallStockPile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/Open16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/installation/harrierImage.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/CacheTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/ExternalTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/IndustryClassificationNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/RefreshCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/StockNodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/TreeChache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/tree/treebackup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/com/menu/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/com/menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/com/menu/Menu_Submenu_ActivityData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/com/menu/SubMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CAuditTrail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CCorporateActionDiary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CForExchList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CIndicesList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CPriceDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CStockExchList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CStockList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/CSystemConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/ApplicationResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/CorporateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/CorporateActionFormBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/IndexValidation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/ListTypeClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/NewIndexDefineAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/NewIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/QueryClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/FormBean/ReportClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CCashDividend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CCorporateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CDividendStk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CIndexCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CRepurchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CRightsOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CSplitReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/CWarrantCon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/FixedIncomeCIndexCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/compute/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CCountry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CForExchCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CFormula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CIndustry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CIndustryGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CSector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CStockExchange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/entities/CSubIndustry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/ActionCorp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/CorporateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FillTables$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FillTables$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FillTables$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FillTables$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FillTables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeComputeIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeComputeIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeCorporate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeDefineIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeDefineIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeIndexCompositionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeIndexCompositionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeListTypeClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/FixedIncomeNCorp_Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/QueryClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/QueryClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/StockBondsResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/StockDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/StockDetailsCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/StockMasterBondsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/StockMasterBondsCommodities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/UpdateCorp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/fixedincome/stocklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/interfaces/filereader/CExchRateFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/interfaces/filereader/CIndexCompositionReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/interfaces/filereader/CPriceFileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/ActivityAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/ActivityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddCompanyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddCompanyForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddCurrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddCurrencyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddStockExchAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/AddStockExchForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CapturedIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CapturedIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CommodityAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CompanyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CompanyForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/Continents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/ContinentsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CorpMasterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CorporateActionMaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/CountriesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/ExchangeHolidaysAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/ExchangeHolidaysForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/FrtoCurrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/FrtoCurrencyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IdentifierCodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IdentifierCodesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IndComplianceMasterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IndComplianceMasterForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IndexType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/IndexTypeAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RatCodesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RatingCodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RoleActivitiesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RoleActivitiesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RolesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/RolesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/StockMasterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/StockMasterBondsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/StockMasterBondsCommodities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/StockMasterForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/StockTypeAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/TimeZone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/TimeZoneAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/TimeZones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/classesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/classesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/classificationLevelAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/classificationLevelForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/countries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/frtoCurrrency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/industryClassificationAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/industryClassificationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/masters/stocktype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/AddFactData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/AdjustDecimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/AjaxGraphMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/AllReportsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/AllReportsForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/BatchReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/BatchReportActionN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/BatchReportDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/BatchReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/BatchReportFormN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Candlestick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CompanyWiseWeightageAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CompanyWiseWeightageDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CompanyWiseWeightageForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CylinderChartDemo2$CustomCylinderRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CylinderChartDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/CylinderRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DatasetFactory1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DetailIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DisplayIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DisplayIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DynaReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/DynaReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/EmailReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/EmailReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/FileDownLoadAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/FileDownLoadForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/GraphMethodsPf$CustomBarRenderer3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/GraphMethodsPf$CustomCylinderRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/GraphMethodsPf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/InactiveStockDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/InactiveStockListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/InactiveStockListForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCalculatorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCalculatorCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCalculatorDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCalculatorForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompareAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompareForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompareOHLCAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompareOHLCForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCompose12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexComposeAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexComposeForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexComposeReportAjax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexComposeReportMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCurrencyWiseForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexCurrencyWiseSAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexDivisorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexDivisorActionNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexDivisorForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexDivisorFormNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexGraphAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexGraphForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexListReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexListReportDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexListReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexMovingDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexOHLCDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexPePbDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexPerformanceAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexPerformanceForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexPerformanceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexReturnsVolatilityAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexReturnsVolatilityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexWise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexWiseWeightAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/IndexWiseWeightForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Indexpe_pbAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Indexpe_pbForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Latest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/LatestIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/LatestIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakeExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakeExcelOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakePdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakePdfOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakeXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakeXmlAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MakeXmlNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Make_Pdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MarketGainerLoosersAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MarketGainerLoosersForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MovingIndexTableA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MovingIndexValueAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MovingIndexValueForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/MultiFact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/PortfolioReportAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/PortfolioReportForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/PortpolioTisCalculatorAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/PortpolioTisDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/RemoveReportPerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/RemoveReportPerForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/ReportPerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/ReportPerForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/ReportPerNameAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/ReportPerNameForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/ReportPreDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/SectorContriToIndexAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/SectorContriToIndexForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/SectorWeightage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/SectorwiseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/SectorwiseForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockContri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockContributionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockContributionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockDetailFromDateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockDetailFromDateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockDividentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/StockDividentForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Top10Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/Top10DetailsForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/TradedVolumeAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/TradedVolumeForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/capitalChangeUnivAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/capitalChangeUnivForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/indexMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/returnVol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/stockDetailFromDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/stockDetailsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/stockDetailsForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/stockListAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/report/stockListForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/securities/CActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/securities/CRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/harrier/income/com/securities/CUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/CgiMultipartRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/EmptyInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/MaxReadBytesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/MultipartRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/ServletMultipartRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/http/utils/multipartrequest/TempFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java.policy.applet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/mail/MyAutheticator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/mail/msgsend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/mail/sdfsd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/AdjustDecimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/CalculateBeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/CalculateCorrelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/ComposeIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/DynamicRerpots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/DynamicTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/EmailContents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/FieldSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/FixedIncomeComposeIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/IndexCompareOHLC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/IndexCompose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/Indexwise_pe_pb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/NoDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/QueryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/SaveAsFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/WebHit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/jfree/chart/demo/servlet/WebHitDataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/IndexValidation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/System_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/application_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/application_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/application_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/application_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/define_and_compose_all_child_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/ftpDetails.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/l4j3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/s_p_define_compose_single_child_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/resources/user_query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/CancelationdataAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/ConfirmUserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/DisplayAccountInfoAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/ForgotPasswordAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/LoadCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/LoginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/RegistrationAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/SubscriptiondataAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/UserRegistrationAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/action/cancelsubscriptionAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/dao/SubscriptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/form/CancelForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/form/UserAccountInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/form/UseraccountinfoForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/form/subscribeUserForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/form/subscriptionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/subscription/sdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/ActivityAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/ActivityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/IndexUpdateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/IndexUpdateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/SysConfigAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/SysConfigForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/UserRolesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/UserRolesForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/stockDetailFromDateAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/action/stockDetailFromDateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/Companyclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/RoleActivities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/SysConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/UserRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/classes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/classificationLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/indexMovement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/industryClassification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/sysconfig/model/stockDetailFromDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolMenus/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolMenus/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolMenus/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoolMenus/CoolMenusSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Income.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaSource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AcessControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ActionCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ActionForwardParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ActionMerge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/AuditTrail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/BackTestCompute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/BackTestIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/BackTestIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/BaseValuesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/BaseValuesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CStockPriceComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CStockPriceComponentsfi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CapturedIndexCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Changecurr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ChangepassAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ChangepassForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ComputeIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ComputeIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Connect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CorpDairy_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Corporate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CorporateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CorporateActionFormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CrExchangeRateFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/CrExchangeRateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DatFileUploadAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DatFileUploadForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Data_userdetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DateFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DynamicTableAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/DynamicTableForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/EPSDetailForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/EmailReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/EmailReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/EpsReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/FillTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/FinanceResultAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/FinanceResultForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/FinancialDetailForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/FinancialDetailReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ForgotAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ForgotForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/GICSFileUploadAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/GICSFileUploadForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/GICSForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/GICSReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IncomeLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCA_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCalculatorAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCalculatorCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCalculatorForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCom_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCompositionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCompositionForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexCurrencyWiseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexOHLC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexOHLCAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/IndexOHLCForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/InitSevlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ListTypeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ListTypeClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/LogoffAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/LogonAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/LogonForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/MakeExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NCorp_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NewIndexDefineAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NewIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NewusersAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NewusersForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NseIndexDetailForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NseIndexDetailReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/NyseNewStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Open16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PEDailyReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PEDetailForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PatAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PatAction1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PatForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PatForm1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PopFileDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PopFileDialogNewStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PopFileDialogNewStockDat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/PortpolioTisCalculatorAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/QueryClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/QueryClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ReadIndexOHLC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/SendMail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/StockDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/StockDetailsCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/StockMergerAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/StockMergerForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/StockResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/TestOverload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Testdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdateCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdateDatForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdateSeriesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdateSeriesReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Updatef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdatefDbform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UpdatefForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UserDirectory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/UserDirectoryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/l4j3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/stocklist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/Bhav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/BhavThrDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/Client4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/ClientBhav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/ClientMess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/ClientSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/FrameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/FrameTestBhav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/FrameTestMess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/FrameTestSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/IndThrDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/Ind_FtpReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/Market.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MarketReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MessageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MessageReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MessthrDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MktThrDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/MyDom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/ReadSecurityFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/SecThrDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/Security.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/SecurityFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UploadBhavcopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UploadInd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UploadMessageFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UploadMkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UploadSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UplodeBhav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UplodeMasterSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/ftp/UplodeSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/initializeation/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/initializeation/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/initializeation/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/initializeation/ConnectInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/harrier/initializeation/Log4jInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/InstallStockPile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/Open16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/installation/harrierImage.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/CacheTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/ExternalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/IndustryClassificationNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/RefreshCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/StockNodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/TreeChache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/treebackup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/Menu_Submenu_ActivityData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/com/menu/SubMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CAuditTrail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CCorporateActionDiary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CForExchList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CIndicesList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CPriceDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CStockExchList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CStockList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CSystemConfigurator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/ApplicationResources.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/CorporateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/CorporateActionFormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/IndexValidation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/ListTypeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/NewIndexDefineAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/NewIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/QueryClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/FormBean/ReportClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CCashDividend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CCorporateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CDividendStk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CIndexCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CRepurchase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CRightsOff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CSplitReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/CWarrantCon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/FixedIncomeCIndexCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/compute/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CForExchCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CFormula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CIndustry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CIndustryGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CSector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CStockExchange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CSubIndustry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/entities/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/ActionCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/CorporateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FillTables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeComputeIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeComputeIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeCorporate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeDefineIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeDefineIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeIndexCompositionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeIndexCompositionForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeListTypeClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/FixedIncomeNCorp_Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/QueryClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/QueryClass1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/StockBondsResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/StockDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/StockDetailsCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/StockMasterBondsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/StockMasterBondsCommodities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/UpdateCorp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/fixedincome/stocklist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CExchRateFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CIndexCompositionReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CPriceFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/interfaces/filereader/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/ActivityAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/ActivityForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddCompanyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddCompanyForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddCurrency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddCurrencyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddStockExchAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/AddStockExchForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CapturedIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CapturedIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CommodityAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CompanyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CompanyForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/Continents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/ContinentsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CorpMasterAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CorporateActionMaster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/CountriesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/ExchangeHolidaysAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/ExchangeHolidaysForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/FrtoCurrency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/FrtoCurrencyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IdentifierCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IdentifierCodesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IndComplianceMasterAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IndComplianceMasterForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IndexType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/IndexTypeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RatCodesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RatingCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RoleActivitiesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RoleActivitiesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RolesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/RolesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/StockMasterAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/StockMasterBondsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/StockMasterBondsCommodities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/StockMasterForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/StockTypeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/TimeZone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/TimeZoneAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/TimeZones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/classesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/classesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/classificationLevelAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/classificationLevelForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/countries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/frtoCurrrency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/industryClassificationAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/industryClassificationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/masters/stocktype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AddFactData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AdjustDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AjaxGraphMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AllReportsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AllReportsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/AreaChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/BatchReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/BatchReportActionN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/BatchReportDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/BatchReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/BatchReportFormN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CMovingAverage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Candlestick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CombinedChart1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CompanyWiseWeightageAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CompanyWiseWeightageDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CompanyWiseWeightageForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CylinderChartDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/CylinderRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DatasetFactory1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DetailIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DisplayIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DisplayIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DynaReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/DynaReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/EmailReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/EmailReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/FileDownLoadAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/FileDownLoadForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/GraphMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/GraphMethodsPf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/InactiveStockDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/InactiveStockListAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/InactiveStockListForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCalculatorAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCalculatorCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCalculatorDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCalculatorForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompareAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompareForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompareOHLCAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompareOHLCForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCompose12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexComposeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexComposeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexComposeReportAjax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexComposeReportMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCurrencyWiseForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexCurrencyWiseSAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexDivisorAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexDivisorActionNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexDivisorForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexDivisorFormNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexGraphAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexGraphForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexListReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexListReportDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexListReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexMovingDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexOHLCDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexPePbDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexPerformanceAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexPerformanceForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexPerformanceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexReturnsVolatilityAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexReturnsVolatilityForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexWise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexWiseWeightAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/IndexWiseWeightForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Indexpe_pbAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Indexpe_pbForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Latest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/LatestIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/LatestIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakeExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakeExcelOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakePdf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakePdfOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakeXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakeXmlAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MakeXmlNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Make_Pdf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MarketGainerLoosersAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MarketGainerLoosersForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MovingIndexTableA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MovingIndexValueAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MovingIndexValueForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/MultiFact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/PortfolioReportAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/PortfolioReportForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/PortpolioTisCalculatorAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/PortpolioTisDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/RemoveReportPerAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/RemoveReportPerForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/ReportPerAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/ReportPerForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/ReportPerNameAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/ReportPerNameForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/ReportPreDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/SectorContriToIndexAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/SectorContriToIndexForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/SectorWeightage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/SectorwiseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/SectorwiseForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockContri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockContributionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockContributionForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockDetailFromDateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockDetailFromDateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockDividentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/StockDividentForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Top10Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/Top10DetailsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/TradedVolumeAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/TradedVolumeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/capitalChangeUnivAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/capitalChangeUnivForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/indexMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/returnVol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/stockDetailFromDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/stockDetailsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/stockDetailsForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/stockListAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/report/stockListForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/harrier/income/com/securities/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/CgiMultipartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/EmptyInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/MaxReadBytesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/MultipartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/ServletMultipartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/utils/multipartrequest/TempFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/MyAutheticator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/msgsend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mail/sdfsd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/AdjustDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/CalculateBeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/CalculateCorrelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/ComposeIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/DynamicRerpots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/DynamicTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/EmailContents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/FieldSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/FixedIncomeComposeIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/IndexCompareOHLC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/IndexCompose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/Indexwise_pe_pb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/NoDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/NoDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/QueryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/SaveAsFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/WebHit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/WebHit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/WebHitChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/WebHitDataSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jfree/chart/demo/servlet/WebHitDataSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/IndexValidation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/System_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/application_it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/define_and_compose_all_child_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/ftpDetails.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/l4j3.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/s_p_define_compose_single_child_index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/user_query.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/CancelationdataAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/ConfirmUserAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/DisplayAccountInfoAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/ForgotPasswordAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/LoadCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/LoginAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/RegistrationAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/SubscriptiondataAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/UserRegistrationAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/action/cancelsubscriptionAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/dao/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/dao/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/dao/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/dao/SubscriptionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/CancelForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/UserAccountInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/UseraccountinfoForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/subscribeUserForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/form/subscriptionForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subscription/sdf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/ActivityAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/ActivityForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/IndexUpdateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/IndexUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/SysConfigAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/SysConfigForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/UserRolesAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/UserRolesForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/stockDetailFromDateAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/action/stockDetailFromDateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/CVS/Entries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/CVS/Repository" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/CVS/Root" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/Companyclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/RoleActivities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/SysConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/UserRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/classificationLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/indexMovement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/industryClassification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sysconfig/model/stockDetailFromDate.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2080314253">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="8" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home!/java.base/sun/security/ssl/HandshakeMessage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4665">
+              <caret line="361" selection-start-line="361" selection-end-line="361" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.rmi/java/rmi/activation/ActivationGroupID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="61" column="7" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Internationalization</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Stockpile2013" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stockpile2013" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="groupID&#9;PSI&#9;JAVA://java.rmi.activation.ActivationGroupID&#10;groupid&#9;PSI&#9;JAVA://sun.security.ssl.HandshakeMessage.ECDH_ServerKeyExchange#groupId" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553864845637" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="169b4620-902b-4b73-9c30-4ebe7e7dfa32" name="Default Changelist" comment="" />
+      <created>1553602659112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553602659112</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.26987952" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/wc.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stockpile2013.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jfree/chart/demo/servlet/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Changecurr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Income.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/AcessControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="158" column="47" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/ActionCorp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/harrier/income/com/entities/CFormula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Corporate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home!/java.base/sun/security/ssl/HandshakeMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4665">
+          <caret line="361" selection-start-line="361" selection-end-line="361" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.rmi/java/rmi/activation/ActivationGroupID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
